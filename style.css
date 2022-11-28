@@ -11,6 +11,10 @@ html {
 }
 
 @media screen and (max-width: 420px) {
+    .projects {
+        background-size: auto 1000px;
+    }
+
     .projects__title {
         font-size: 48px;
     }
@@ -35,7 +39,7 @@ html {
     background-image: url("../img/background_blue.svg");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: auto 800px;
+    background-size: cover;
 }
 
 .projects__item {
