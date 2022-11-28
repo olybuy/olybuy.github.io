@@ -10,25 +10,6 @@ html {
     height: 100%;
 }
 
-@media screen and (max-width: 420px) {
-    .projects {
-        background-size: auto 1000px;
-    }
-
-    .projects__title {
-        font-size: 48px;
-    }
-
-    .projects__list {
-        flex-direction: column;
-    }
-
-    .projects__link {
-        width: 80px;
-        height: 80px;
-    }
-}
-
 .projects {
     display: flex;
     flex-direction: column;
@@ -135,4 +116,23 @@ html {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+@media screen and (max-width: 420px) {
+    .projects {
+        background-size: auto 1000px;
+    }
+
+    .projects__title {
+        font-size: 48px;
+    }
+
+    .projects__list {
+        flex-direction: column;
+    }
+
+    .projects__link {
+        width: 80px;
+        height: 80px;
+    }
 }
