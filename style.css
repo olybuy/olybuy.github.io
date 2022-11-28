@@ -26,30 +26,20 @@ html {
 }
 
 .projects {
-    min-height: 100%;
-    background-image: url("../img/background_blue.svg");
-}
-
-.projects__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 auto;
     max-width: fit-content;
+    min-height: 100%;
+    margin: 0 auto;
+    background-image: url("../img/background_blue.svg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
 }
 
-.projects__title {
-    display: block;
-    margin: 0;
-    padding: 40px;
-    text-transform: uppercase;
-    font-family: "PoiretOne", "Arial", sans-serif;
-    font-size: 56px;
-    color: #fff;
-    text-align: center;
+.projects__item {
+    align-self: center;
 }
 
 .projects__list {
@@ -62,10 +52,6 @@ html {
     list-style-type: none;
 }
 
-.projects__item {
-    align-self: center;
-}
-
 .projects__link {
     display: block;
     width: 100px;
@@ -75,6 +61,17 @@ html {
 
 .projects__link:hover {
     transform: scale(1.5);
+}
+
+.projects__title {
+    display: block;
+    margin: 0;
+    padding: 40px;
+    text-transform: uppercase;
+    font-family: "PoiretOne", "Arial", sans-serif;
+    font-size: 56px;
+    color: #fff;
+    text-align: center;
 }
 
 .sedona1 {
