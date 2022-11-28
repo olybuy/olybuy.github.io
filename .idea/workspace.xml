@@ -10,16 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/my-photo@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/my-photo@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sedona1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sedona2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/my-photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/my-photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/my-photo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/my-photo.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="6616000" />
+      <workItem from="1669625572347" duration="7132000" />
     </task>
     <task id="LOCAL-00001" summary="initial file">
       <created>1669623854916</created>
@@ -303,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669630600188</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Change in main page">
+      <created>1669632710424</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1669632710424</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,9 +336,9 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669630601394">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669632712095">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669630601394" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669632712095" />
   </component>
 </project>
