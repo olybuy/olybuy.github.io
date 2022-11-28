@@ -11,35 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bear/img/bg/review-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/bg/review-bg.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/bg/review-bg@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/bg/review-bg@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-desktop.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-desktop@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-desktop@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-mobile.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-mobile@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-mobile@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-tablet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-tablet.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-tablet@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/triple-set-tablet@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-desktop.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-desktop@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-desktop@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-mobile.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-mobile@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-mobile@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-tablet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-tablet.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-tablet@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/content/video-tablet@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bear/img/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="2879000" />
+      <workItem from="1669625572347" duration="3556000" />
     </task>
     <task id="LOCAL-00001" summary="initial file">
       <created>1669623854916</created>
@@ -280,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669628320566</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add files bear">
+      <created>1669628605790</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669628605790</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,9 +290,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add files bear" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669628322082">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669628606860">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669628322082" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669628606860" />
   </component>
 </project>
