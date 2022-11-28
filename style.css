@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "PoiretOne";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/PoiretOne-Regular.ttf");
+    font-display: swap;
+}
+
 html {
     height: 100%;
     background-image: url("../img/background_blue.svg");
@@ -45,8 +53,9 @@ html {
     margin: 0;
     padding: 20px;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: "PoiretOne", "Arial", sans-serif;
     color: #fff;
+    text-align: center;
 }
 
 .sedona1 {
