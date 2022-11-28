@@ -24,3 +24,24 @@
     display: flex;
     gap: 50px;
 }
+
+.sedona1 {
+    background-image: url("img/sedona1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sedona2 {
+    background-image: url("img/sedona2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bear {
+    background-image: url("img/bear.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

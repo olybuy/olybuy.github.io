@@ -10,7 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/my-photo@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/my-photo@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sedona1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sedona2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/my-photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/my-photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/my-photo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/my-photo.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +54,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/sedona_1/images" />
       <recent name="$PROJECT_DIR$/sedona_1" />
     </key>
   </component>
@@ -67,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="4923000" />
+      <workItem from="1669625572347" duration="6616000" />
     </task>
     <task id="LOCAL-00001" summary="initial file">
       <created>1669623854916</created>
@@ -286,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669630407427</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Change in main page">
+      <created>1669630600188</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1669630600188</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,13 +334,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Change in main page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669630251276">
+    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669630251276" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669630408945">
+    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669630601394">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669630408945" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669630601394" />
   </component>
 </project>
