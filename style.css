@@ -35,7 +35,7 @@ html {
     background-image: url("../img/background_blue.svg");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: cover;
+    background-size: auto 1000px;
 }
 
 .projects__item {
