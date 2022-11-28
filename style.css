@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-
 }
 
 .projects__link {
@@ -24,11 +23,6 @@
 .projects__title {
     text-transform: uppercase;
     font-family: sans-serif;
-}
-
-.projects__wrapper {
-    display: flex;
-    gap: 100px;
 }
 
 .sedona1 {
