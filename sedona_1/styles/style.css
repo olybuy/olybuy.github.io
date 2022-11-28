@@ -1,0 +1,1861 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("WebstormProjects/olybuy.github.io/sedona_1/fontsProjects/olybuy.github.io/sedona_1/fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("WebstormProjects/olybuy.github.io/sedona_1/fontsProjects/olybuy.github.io/sedona_1/fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 1280px;
+  height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1200px;
+  min-height: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* КНОПКИ */
+
+.button {
+  display: inline-block;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #E5E5E5;
+  cursor: inherit;
+}
+
+/* ЗАГОЛОВКИ */
+
+.title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* НАВИГАЦИЯ */
+
+.page-header {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  position: absolute;
+  z-index: 2;
+  width: 139px;
+  left: 70px;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 70px;
+  margin-left: 239px;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 480px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation-user {
+  justify-content: flex-end;
+  width: 320px;
+}
+
+.navigation-item {
+  text-align: center;
+}
+
+.navigation-link {
+  position: relative;
+  display: block;
+  min-width: 42px;
+  box-sizing: border-box;
+  padding: 20px 17px 19px 17px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation-link-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.navigation-link:hover {
+  color: #756157;
+}
+
+.navigation-link:focus {
+  color: #756157;
+  outline: none;
+}
+
+.navigation-link:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.favorites {
+  margin-right: 20px;
+}
+
+.navigation-active-link::after {
+  content: "";
+  position: absolute;
+  left: 17px;
+  right: 17px;
+  bottom: -1px;
+  z-index: 2;
+  display: block;
+  height: 2px;
+  background-color: #756257;
+}
+
+.navigation-search-button {
+  display: block;
+  width: 160px;
+  padding: 9px 15px 8px 15px;
+  box-sizing: border-box;
+  background-color: #756157;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navigation-search-button:hover {
+  background-color: #615048;
+}
+
+.navigation-search-button:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.navigation-search-button:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.favorites-counter {
+  position: absolute;
+  top: 2px;
+  right: -2px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #7DB54F;
+  border-radius: 10px;
+}
+
+.favorites-number {
+  display: block;
+  margin-top: 2.5px;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+}
+
+/* ГЛАВНАЯ СТРАНИЦА */
+
+.main-header {
+  position: relative;
+  padding-top: 51px;
+  margin-bottom: 63px;
+  box-sizing: border-box;
+  height: 485px;
+  text-align: center;
+  color: #000000;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/index-background.jpg");
+  background-size: cover; /* или background-size: 100% auto; ?? */
+  background-color: #3F5E72;
+  background-repeat: no-repeat;
+}
+
+.main-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 57px;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/divider.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-over-pict {
+  margin-bottom: 83px;
+}
+
+.promo-wrapper {
+  margin: 0 auto;
+  margin-bottom: 90px;
+  width: 660px;
+  text-align: center;
+}
+
+.promo-main-title {
+  margin-bottom: 31px;
+}
+
+.promo-main-desc {
+  margin: 0;
+  color: #333333;
+}
+
+/* ПРЕИМУЩЕСТВА */
+
+.advantages {
+  text-align: center;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 90px;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-list li:nth-child(-n+2) {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.advantages-list li:nth-child(2n+3) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-list li:nth-child(2n+4) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item {
+  width: 400px;
+  min-height: 384px;
+  box-sizing: border-box;
+}
+
+.advantages-item-wrapper {
+  width: 230px;
+  padding: 20px;
+}
+
+.advantages-list > .advantages-item:not(.devil-bridge) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-list .advantages-item.true-town {
+  align-items: flex-start;
+}
+
+.advantages-more-list > .advantages-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-item img {
+  display: block;
+}
+
+.advantages-num {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-desc {
+  margin: 0;
+  color: #333333;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-more-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  list-style: none;
+  background-color: #FFFFFF;
+}
+
+.advantages-more-wrapper {
+  padding: 0;
+  width: 100%;
+}
+
+.advantages-more-list li:nth-child(odd) {
+  color: inherit;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-more-list li:nth-child(even) {
+  color: inherit;
+  background-color: #FFFFFF;
+}
+
+.motel .advantages-item-wrapper::before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 72px;
+  margin: -1px auto 30px auto;
+  background-image: url('WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/icon-house.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.food .advantages-item-wrapper::before {
+  content: "";
+  display: block;
+  width: 74px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 31px;
+  background-image: url('WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/icon-food.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.souvenirs .advantages-item-wrapper::before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 76px;
+  margin: -3px auto 28px auto;
+  background-image: url('WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/icon-suvenirs.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.true-town {
+  width: 100%;
+  padding: 0;
+}
+
+.true-town-wrapper {
+  display: flex;
+}
+
+.true-town-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.true-town-content .advantages-desc {
+  color: #FFFFFF;
+}
+
+.true-town-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.devil-bridge {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+
+.devil-bridge .advantages-desc {
+  color: #FFFFFF;
+}
+
+.devil-bridge-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+  width: 400px;
+}
+
+.devil-bridge img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ЗАИНТЕРЕСОВАЛИСЬ */
+
+.search-form {
+  text-align: center;
+}
+
+.search-form-wrapper {
+  width: 592px;
+  margin: 0 auto;
+  margin-bottom: 93px;
+}
+
+.search-form-title {
+  margin-bottom: 29px;
+}
+
+.search-form-desc {
+  margin: 0;
+  margin-bottom: 56px;
+  color: #333333;
+}
+
+.search-form-button {
+  display: block;
+  width: 574px;
+  margin: 0 auto;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #756157;
+}
+
+.search-form-button:hover {
+  background-color: #615048;
+}
+
+.search-form-button:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.search-form-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #756157;
+}
+
+/* РАССЫЛКА */
+
+.newsletter {
+  padding: 94px 0;
+  margin-bottom: 45px;
+  color: #FFFFFF;
+  text-align: center;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/newsletter-background.jpg");
+  background-color: #82B3D3;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.newsletter-inner {
+  margin-bottom: 139px;
+  color: #000000;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.newsletter-inner .newsletter-desc {
+  color: #333333;
+}
+
+.newsletter-wrapper {
+  width: 475px;
+  margin: 0 auto;
+}
+
+.newsletter-title {
+  margin-bottom: 29px;
+}
+
+.newsletter-desc {
+  margin: 0;
+  margin-bottom: 46px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+input[name="newsletter-email"] {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 20px 22px 19px 22px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+  font-family: "PT Sans", sans-serif;
+}
+
+input[name="newsletter-email"]::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+}
+
+.newsletter-label {
+  flex-grow: 1;
+}
+
+.newsletter-label-inner input {
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.subscribe-button {
+  width: 200px;
+  padding: 12px 15px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border: 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.subscribe-button:hover {
+  background-color: #68A2CA;
+}
+
+.subscribe-button:focus {
+  background-color: #68A2CA;
+  outline: none;
+}
+
+.subscribe-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82B3D3;
+}
+
+/* ХЛЕБНЫЕ КРОШКИ */
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 40px 2px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.breadcrumbs-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-home::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/breadcrumbs-home.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.breadcrumbs-home:hover {
+  opacity: 0.6;
+}
+
+.breadcrumbs-home:active {
+  opacity: 0.3;
+}
+
+.breadcrumbs-item:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/breadcrumbs-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link {
+  cursor: pointer;
+}
+
+/* ФИЛЬТР */
+
+.hotel-filter {
+  margin-bottom: 55px;
+  color: #FFFFFF;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/filter-background.jpg");
+  background-color: #82B3D3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hotel-filter-title {
+  margin: 0;
+  margin-bottom: 10px;
+  padding-top: 35px;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.hotel-filter-wrapper {
+  margin: 0 70px;
+}
+
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+
+.filter-form-title {
+  padding: 0;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.filter-form-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.filter-form-item {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.filter-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.filter-form-group {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.infrastructure {
+  width: 211px;
+}
+
+.hotel-type {
+  width: 310px;
+}
+
+.price-choice {
+  width: 350px;
+}
+
+.price-choice .filter-form-title {
+  margin-bottom: 34px;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 39px;
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+.infrastructure .control-mark {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+}
+
+.infrastructure-control:hover .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.infrastructure .control-input:focus + .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+}
+
+.infrastructure-control:active .control-mark {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.infrastructure .control-input[type="checkbox"]:checked + .control-mark {
+  position: absolute;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/checked.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hotel-type .control-mark {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+}
+
+.hotel-type .control-input[type="radio"]:checked + .control-mark::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 50%;
+}
+
+.hotel-type .control-input:focus + .control-mark {
+  box-shadow: -1px 1px 0 2px #83B3D3,
+              1px -1px 0 2px #83B3D3,
+              1px 1px 0 2px #83B3D3,
+              -1px -1px 0 2px #83B3D3;
+}
+
+.price-controls {
+  display: grid;
+  grid-template-columns: repeat(2, 144px);
+  row-gap: 28px;
+}
+
+.price-control input {
+  width: 144px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.price-control input:disabled {
+  opacity: 0.6;
+}
+
+.price-control {
+  position: relative;
+}
+
+.price-control-text {
+  position: absolute;
+  display: block;
+  right: 15px;
+  top: 12px;
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 0.3;
+}
+
+.range-scale {
+  grid-column: 1 / -1;
+  position: relative;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #FFFFFF;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:focus {
+  border: 3px solid #83B3D3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:active {
+  border: 2px solid #83B3D3;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input[name="min-price"] {
+  padding-left: 17px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  border: 2px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  border-radius: 4px 0 0 4px;
+}
+
+input[name="max-price"] {
+  padding-left: 17px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  border: 2px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-radius: 0 4px 4px 0;
+}
+
+.range-input::placeholder {
+  color: #FFFFFF;
+}
+
+.range-input[name="min-price"]:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.range-input[name="max-price"]:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.range-input[name="min-price"]:focus {
+  box-shadow: -1px 1px 0 2px #81B3D2,
+              1px -1px 0 2px #81B3D2,
+              inset 1px -1px 0 2px #81B3D2,
+              inset -1px 1px 0 2px #81B3D2;
+  outline: none;
+}
+
+.range-input[name="max-price"]:focus {
+  box-shadow: -1px 1px 0 2px #81B3D2,
+  1px -1px 0 2px #81B3D2,
+  inset 1px -1px 0 2px #81B3D2,
+  inset -1px 1px 0 2px #81B3D2;
+  outline: none;
+}
+
+.range-input[name="min-price"]:active,
+.range-input[name="max-price"]:active{
+  background-color: #756257;
+}
+
+.filter-buttons {
+  width: 160px;
+  /*padding-top: 60px;*/
+  align-self: flex-end;
+  text-align: center;
+}
+
+.filter-form-button {
+  display: block;
+  width: 130px;
+  padding: 14px 15px;
+  margin: 0;
+  margin-bottom: 20px;
+  box-sizing: content-box;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border: 0;
+}
+
+.filter-form-button:hover {
+  background-color: #68A2CA;
+}
+
+.filter-form-button:focus {
+  background-color: #68A2CA;
+  outline: none;
+}
+
+.filter-form-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82B3D3;
+}
+
+.reset-link {
+  display: block;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.reset-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.reset-link:active {
+  opacity: 0.3;
+  outline: none;
+  border: none;
+}
+
+.reset-link:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+/* SWITCHER */
+
+.catalog-search-results {
+  margin-left: 73px;
+  margin-right: 71px;
+  margin-bottom: 94px;
+}
+
+.hotel-counter {
+  color: #333333;
+}
+
+.hotel-counter-title {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.view-switcher-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 56px;
+  margin-left: -1px;
+}
+
+.view-switcher-wrapper .title {
+  margin-right: 191px;
+}
+
+.select-control {
+  appearance: none;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/list-arrow-dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: right 19px center;
+}
+
+.sorting {
+  width: 290px;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  margin-right: 78px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sorting:hover,
+.sorting:focus {
+  border: 2px solid #68A2CA;
+}
+
+.sorting:active {
+  border: 2px solid #3F5E72;
+}
+
+.sorting:disabled,
+.sorting:disabled:hover {
+  opacity: 0.3;
+  border: 2px solid #E5E5E5;
+  cursor: inherit;
+}
+
+.view-switcher-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 48px);
+  column-gap: 8px;
+  row-gap: 8px;
+  align-self: self-start;
+  width: 160px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.view-button {
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.view-button:hover {
+  border: 2px solid #000000;
+}
+
+.view-button:focus {
+  border: 2px solid #68A2CA;
+}
+
+.view-button:active {
+  border: 2px solid #000000;
+}
+
+.view-button-current {
+  border-color: #000000;
+}
+
+.view-button-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+/* КАРТОЧКА ОТЕЛЯ */
+
+.hotel-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  column-gap: 18px;
+  margin: 0;
+  margin-bottom: 66px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hotel-item {
+  width: 340px;
+}
+
+.hotel-item-content {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  column-gap: 20px;
+  row-gap: 16px;
+  padding: 20px;
+}
+
+.hotel-name {
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.hotel-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hotel-link {
+  grid-column: 1 / -1;
+  color: inherit;
+  text-decoration: none;
+}
+
+.hotel-about-button {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #756157;
+  padding: 9px 15px 8px 15px;
+  text-align: center;
+}
+
+.hotel-about-button:hover {
+  background-color: #615048;
+}
+
+.hotel-about-button:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.hotel-about-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #756157;
+}
+
+.hotel-favorites-button {
+  padding: 9px 15px 8px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border: 0;
+}
+
+.hotel-favorites-button:hover {
+  background-color: #68A2CA;
+}
+
+.hotel-favorites-button:focus {
+  background-color: #68A2CA;
+  outline: none;
+}
+
+.hotel-favorites-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82B3D3;
+}
+
+.added-favorites-button {
+  color: #FFFFFF;
+  background-color: #7DB54F;
+}
+
+.added-favorites-button:hover {
+  background-color: #6C9E42;
+}
+
+.added-favorites-button:focus {
+  background-color: #6C9E42;
+  outline: none;
+}
+
+.added-favorites-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #7DB54F;
+}
+
+.hotel-price-list {
+  grid-column: 1 / -1;
+  display: flex;
+  margin: 0;
+  color: #333333;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hotel-price {
+  margin: 0;
+}
+
+.hotel-rating {
+  display: block;
+  padding: 9px 22px 8px 23px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.accommodation-type {
+  width: 140px;
+  margin-right: 20px;
+}
+
+.hotel-stars {
+  display: flex;
+  align-items: center;
+}
+
+.stars-5 {
+  background-image:
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg");
+  background-repeat: no-repeat;
+  background-position: left, 20%, 40%, 60%, 80%;
+}
+
+.stars-4 {
+  background-image:
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg");
+  background-repeat: no-repeat;
+  background-position: left, 20%, 40%, 60%;
+}
+
+.stars-3 {
+  background-image:
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg");
+  background-repeat: no-repeat;
+  background-position: left, 20%, 40%;
+}
+
+.stars-2 {
+  background-image:
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg"),
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg");
+  background-repeat: no-repeat;
+  background-position: left, 20%;
+}
+
+.stars-1 {
+  background-image:
+    url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/star.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+/* ПАГИНАЦИЯ */
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  border-top: 1px solid #E6E6E6;
+}
+
+.pagination-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 60px);
+  column-gap: 8px;
+  row-gap: 8px;
+  width: 600px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-link {
+  display: block;
+  min-width: 60px;
+  min-height: 60px;
+  padding: 11px;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #82B3D3;
+  border-radius: 4px;
+}
+
+.pagination-link:not(.pagination-current):hover {
+  background-color: #68A2CA;
+}
+
+.pagination-link:not(.pagination-current):focus {
+  background-color: #68A2CA;
+  outline: none;
+}
+
+.pagination-link:not(.pagination-current):active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82B3D3;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.hotel-counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 386px;
+}
+
+.hotel-counter-select {
+  width: 160px;
+  height: auto;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hotel-counter-select:hover,
+.hotel-counter-select:focus {
+  border: 2px solid #68A2CA;
+}
+
+.hotel-counter-select:active {
+  border: 2px solid #3F5E72;
+}
+
+.hotel-counter-select:disabled,
+.hotel-counter-select:disabled:hover {
+  opacity: 0.3;
+  border: 2px solid #E5E5E5;
+  cursor: inherit;
+}
+
+/* ПОДВАЛ */
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px 35px 70px;
+}
+
+.footer-social {
+  width: 208px;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  list-style-type: none;
+}
+
+.social-link {
+  position: relative;
+  display: block;
+  min-width: 47px;
+  min-height: 40px;
+}
+
+.social-link-icon {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #83B3D3;
+}
+
+.social-link:hover .social-link-icon,
+.social-link:focus .social-link-icon {
+  color: #68A2CA;
+}
+
+.social-link:active .social-link-icon {
+  color: rgba(104, 162, 202, 0.3);
+}
+
+.footer-tel {
+  width: 331px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: #756157;
+  outline: none;
+}
+
+.footer-tel:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.footer-copyright {
+  width: 180px;
+}
+
+.copyright-logo-icon {
+  display: block;
+  margin-left: auto;
+  color: #000000;
+}
+
+.copyright-logo:focus,
+.social-link:focus {
+  outline: none;
+}
+
+.copyright-logo:hover .copyright-logo-icon,
+.copyright-logo:focus .copyright-logo-icon {
+  color: #756157;
+}
+
+.copyright-logo:active .copyright-logo-icon {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+/* МОДАЛЬНОЕ ОКНО */
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 62px 70px 70px 70px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.modal-search {
+  width: 715px;
+}
+
+.modal-search-title {
+  margin-bottom: 63px;
+  margin-left: -2px;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 54px;
+  right: 70px;
+  width: 53px;
+  height: 53px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.close-button-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 15px;
+  height: 14px;
+}
+
+.modal-close-button:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-close-button:hover .close-button-icon {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-close-button:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.modal-close-button:active {
+  background-color: #E6E6E6;
+  opacity: 0.3;
+}
+
+.modal-search-label {
+  align-self: center;
+  width: 155px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.kids-number .modal-search-label {
+  width: 97px;
+}
+
+.modal-search-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 56px;
+  row-gap: 40px;
+}
+
+.date {
+  grid-column: 1 / span 2;
+}
+
+.modal-search-button {
+  grid-column: 1 / span 2;
+}
+
+.field-group {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.modal-search-field {
+  flex-grow: 1;
+  padding: 15px 19px 14px 19px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-search-field:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-search-field:focus {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+
+.modal-search-field:active {
+  background-color: #FFFFFF;
+  outline: 2px solid #000000;
+}
+
+.number-of-guests .modal-search-field {
+  width: 133px;
+  box-sizing: border-box;
+}
+
+.modal-search-field::placeholder {
+  color: #000000;
+}
+
+.number-of-guests .modal-search-field {
+  text-align: center;
+}
+
+.modal-search-field::-webkit-outer-spin-button,
+.modal-search-field::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.modal-search-button {
+  padding: 12px 26px;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  border: none;
+  border-radius: 10px;
+}
+
+.modal-search-button:hover {
+  background-color: #68A2CA;
+}
+
+.modal-search-button:focus {
+  border: 3px solid #756257;
+}
+
+.modal-search-button:active {
+  background-color: #68A2CA;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.date::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 15px;
+  top: 18px;
+  right: 17px;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/calendar-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+}
+
+.modal-wrapper {
+  position: relative;
+  display: block;
+  width: 133px;
+}
+
+.plus {
+  position: absolute;
+  height: 100%;
+  padding: 15px 19px 15px 14px;
+  right: 0;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/plus-icon.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.minus {
+  position: absolute;
+  height: 100%;
+  padding: 15px 15px 15px 19px;
+  left: 0;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/minus-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: transparent;
+  border: none;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.modal-counter-button:hover {
+  opacity: 1;
+}
+
+.modal-counter-button:hover + .modal-search-field {
+  background-color: #E6E6E6;
+}
+
+.modal-counter-button:focus {
+  opacity: 1;
+}
+
+.modal-counter-button:active {
+  opacity: 0.2;
+}
+
+.modal-container-close {
+  display: none;
+}
+
+.tooltip {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 54px;
+}
+
+.tooltip-toggle {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #83B3D3;
+}
+
+.tooltip-text {
+  position: absolute;
+  top: 44px;
+  left: 50%;
+  width: 256px;
+  padding: 15px 18px 18px 22px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  transform: translateX(-50%);
+  z-index: 1;
+  display: none;
+}
+
+.tooltip-text::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("WebstormProjects/olybuy.github.io/sedona_1/imagesrojects/olybuy.github.io/sedona_1/images/triange.svg");
+  width: 19px;
+  height: 9px;
+}
+
+.tooltip-icon {
+  color: #FFFFFF;
+  position: absolute;
+  width: 3px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.form-label-icon {
+  position: relative;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+
+.error-text {
+  position: absolute;
+  top: 58px;
+  left: 155px;
+  display: block;
+  color: #FF5757;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.error {
+  display: none;
+}
+
+.attention-text {
+  position: absolute;
+  top: 58px;
+  left: 155px;
+  display: block;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.attention {
+  display: none;
+}
