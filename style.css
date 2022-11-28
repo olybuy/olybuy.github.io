@@ -118,7 +118,7 @@ html {
     background-position: center;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
     .projects {
         background-size: auto 1000px;
     }
