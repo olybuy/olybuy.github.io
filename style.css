@@ -1,3 +1,8 @@
+.projects {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
 .projects__list {
     display: flex;
     gap: 20px;
@@ -13,4 +18,9 @@
 .projects__title {
     text-transform: uppercase;
     font-family: sans-serif;
+}
+
+.projects__wrapper {
+    display: flex;
+    gap: 50px;
 }
