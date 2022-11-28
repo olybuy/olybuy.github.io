@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -242,7 +242,7 @@ body {
   height: 485px;
   text-align: center;
   color: #000000;
-  background-image: url("images/index-background.jpg");
+  background-image: url("../images/index-background.jpg");
   background-size: cover; /* или background-size: 100% auto; ?? */
   background-color: #3F5E72;
   background-repeat: no-repeat;
@@ -255,7 +255,7 @@ body {
   display: block;
   width: 100%;
   height: 57px;
-  background-image: url("images/divider.svg");
+  background-image: url("../images/divider.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -395,7 +395,7 @@ body {
   width: 75px;
   height: 72px;
   margin: -1px auto 30px auto;
-  background-image: url('images/icon-house.svg');
+  background-image: url('../images/icon-house.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -407,7 +407,7 @@ body {
   height: 70px;
   margin: auto;
   margin-bottom: 31px;
-  background-image: url('images/icon-food.svg');
+  background-image: url('../images/icon-food.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -418,7 +418,7 @@ body {
   width: 64px;
   height: 76px;
   margin: -3px auto 28px auto;
-  background-image: url('images/icon-suvenirs.svg');
+  background-image: url('../images/icon-suvenirs.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -531,7 +531,7 @@ body {
   margin-bottom: 45px;
   color: #FFFFFF;
   text-align: center;
-  background-image: url("images/newsletter-background.jpg");
+  background-image: url("../images/newsletter-background.jpg");
   background-color: #82B3D3;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -650,7 +650,7 @@ input[name="newsletter-email"]::placeholder {
   display: block;
   width: 12px;
   height: 12px;
-  background-image: url("images/breadcrumbs-home.svg");
+  background-image: url("../images/breadcrumbs-home.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -670,7 +670,7 @@ input[name="newsletter-email"]::placeholder {
   height: 8px;
   margin-left: 10px;
   margin-right: 10px;
-  background-image: url("images/breadcrumbs-arrow.svg");
+  background-image: url("../images/breadcrumbs-arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -684,7 +684,7 @@ input[name="newsletter-email"]::placeholder {
 .hotel-filter {
   margin-bottom: 55px;
   color: #FFFFFF;
-  background-image: url("images/filter-background.jpg");
+  background-image: url("../images/filter-background.jpg");
   background-color: #82B3D3;
   background-size: cover;
   background-repeat: no-repeat;
@@ -792,7 +792,7 @@ input[name="newsletter-email"]::placeholder {
 
 .infrastructure .control-input[type="checkbox"]:checked + .control-mark {
   position: absolute;
-  background-image: url("images/checked.svg");
+  background-image: url("../images/checked.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1067,7 +1067,7 @@ input[name="max-price"] {
 
 .select-control {
   appearance: none;
-  background-image: url("images/list-arrow-dropdown.svg");
+  background-image: url("../images/list-arrow-dropdown.svg");
   background-repeat: no-repeat;
   background-position: right 19px center;
 }
@@ -1293,45 +1293,45 @@ input[name="max-price"] {
 
 .stars-5 {
   background-image:
-    url("images/star.svg"),
-    url("images/star.svg"),
-    url("images/star.svg"),
-    url("images/star.svg"),
-    url("images/star.svg");
+    url("../images/star.svg"),
+    url("../images/star.svg"),
+    url("../images/star.svg"),
+    url("../images/star.svg"),
+    url("../images/star.svg");
   background-repeat: no-repeat;
   background-position: left, 20%, 40%, 60%, 80%;
 }
 
 .stars-4 {
   background-image:
-    url("images/star.svg"),
-    url("images/star.svg"),
-    url("images/star.svg"),
-    url("images/star.svg");
+    url("../images/star.svg"),
+    url("../images/star.svg"),
+    url("../images/star.svg"),
+    url("../images/star.svg");
   background-repeat: no-repeat;
   background-position: left, 20%, 40%, 60%;
 }
 
 .stars-3 {
   background-image:
-    url("images/star.svg"),
-    url("images/star.svg"),
-    url("images/star.svg");
+    url("../images/star.svg"),
+    url("../images/star.svg"),
+    url("../images/star.svg");
   background-repeat: no-repeat;
   background-position: left, 20%, 40%;
 }
 
 .stars-2 {
   background-image:
-    url("images/star.svg"),
-    url("images/star.svg");
+    url("../images/star.svg"),
+    url("../images/star.svg");
   background-repeat: no-repeat;
   background-position: left, 20%;
 }
 
 .stars-1 {
   background-image:
-    url("images/star.svg");
+    url("../images/star.svg");
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -1699,7 +1699,7 @@ input[name="max-price"] {
   height: 15px;
   top: 18px;
   right: 17px;
-  background-image: url("images/calendar-icon.svg");
+  background-image: url("../images/calendar-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.3;
@@ -1716,7 +1716,7 @@ input[name="max-price"] {
   height: 100%;
   padding: 15px 19px 15px 14px;
   right: 0;
-  background-image: url("images/plus-icon.svg");
+  background-image: url("../images/plus-icon.svg");
   background-repeat: no-repeat;
   background-position: left;
   background-color: transparent;
@@ -1730,7 +1730,7 @@ input[name="max-price"] {
   height: 100%;
   padding: 15px 15px 15px 19px;
   left: 0;
-  background-image: url("images/minus-icon.svg");
+  background-image: url("../images/minus-icon.svg");
   background-repeat: no-repeat;
   background-position: right;
   background-color: transparent;
@@ -1804,7 +1804,7 @@ input[name="max-price"] {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("images/triange.svg");
+  background-image: url("../images/triange.svg");
   width: 19px;
   height: 9px;
 }
