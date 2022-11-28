@@ -1,8 +1,9 @@
 html {
     height: 100%;
-    background-image: url("../img/background.svg");
+    background-image: url("../img/background_blue.svg");
     background-repeat: no-repeat;
     background-position: left;
+    background-size: cover;
 }
 
 .projects {
