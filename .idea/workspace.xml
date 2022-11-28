@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background_blue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/background_blue.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="22813000" />
-    </task>
-    <task id="LOCAL-00017" summary="Add images">
-      <created>1669627440320</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1669627440320</updated>
+      <workItem from="1669625572347" duration="23218000" />
     </task>
     <task id="LOCAL-00018" summary="Add images">
       <created>1669627458405</created>
@@ -417,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669664099421</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Add mobile">
+      <created>1669664375866</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1669664375866</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,9 +456,9 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669664100695">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669664379822">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669664100695" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669664379822" />
   </component>
 </project>
