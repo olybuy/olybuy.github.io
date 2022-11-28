@@ -22,6 +22,11 @@ html {
     .projects__list {
         flex-direction: column;
     }
+
+    .projects__link {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .projects {
