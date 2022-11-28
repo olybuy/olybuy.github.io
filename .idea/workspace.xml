@@ -10,7 +10,140 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sedona_2/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/css/style.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/fonts/ptsans.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/fonts/ptsans.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/fonts/ptsansbold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/fonts/ptsansbold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-desktop@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-desktop@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-inner-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-inner-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-inner-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-inner-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-tablet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/back-tablet@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-desktop@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-desktop@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-tablet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/background/map-tablet@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-desktop@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-desktop@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-tablet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-1-tablet@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-desktop@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-desktop@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-tablet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-2-tablet@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-desktop@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-desktop@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-tablet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-3-tablet@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-desktop@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-desktop@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-tablet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-4-tablet@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-desktop@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-desktop@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-tablet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-bridge-tablet@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-desktop@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-desktop@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-mobile@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-mobile@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-tablet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/photo-city-tablet@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/video-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/video-desktop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/video-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/content/video-mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/favicons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/favicons/512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/favicons/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/icon-burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/icon-cross.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/icon-gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/icon-house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/intro-triangle-big.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/text-index.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/text-sedona.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/tick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/top-triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/video-play-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/white-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/img/white-devider-main.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sedona_2/manifest.webmanifest" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,10 +168,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sedona_2" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sedona_2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sedona_1" />
     </key>
@@ -62,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="1180000" />
+      <workItem from="1669625572347" duration="1548000" />
     </task>
     <task id="LOCAL-00001" summary="initial file">
       <created>1669623854916</created>
@@ -113,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669626635096</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix links">
+      <created>1669626875169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626875169</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add files sedona 2">
+      <created>1669627114486</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669627114487</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,12 +287,13 @@
     <MESSAGE value="Images" />
     <MESSAGE value="Files" />
     <MESSAGE value="Fix links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix links" />
+    <MESSAGE value="Add files sedona 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add files sedona 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669626636597">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669627122613">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669626636597" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669627122613" />
   </component>
 </project>
