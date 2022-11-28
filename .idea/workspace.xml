@@ -35,6 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
+      <workItem from="1669625572347" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="initial file">
       <created>1669623854916</created>
@@ -54,7 +56,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669623854916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="index fix">
+      <created>1669625633478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669625633478</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Images">
+      <created>1669626049566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626049566</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Files">
+      <created>1669626072614</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626072614</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,15 +93,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial file" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial file" />
+    <MESSAGE value="index fix" />
+    <MESSAGE value="Images" />
+    <MESSAGE value="Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669623856324">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669626074067">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669623856324" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669626074067" />
   </component>
 </project>
