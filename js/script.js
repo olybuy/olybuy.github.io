@@ -2,10 +2,10 @@ let sedona = document.querySelector('.button-sedona');
 let sedonaScss = document.querySelector('.button-sedona-scss');
 let bear = document.querySelector('.button-bear');
 
-sedona.addEventListener('mouseover', function (event) {
+sedona.onmouseover = function () {
     document.querySelector('.note-sedona').classList.add('display');
-})
+}
 
-sedona.addEventListener('mouseout', function (event) {
+sedona.onmouseout = function () {
     document.querySelector('.note-sedona').classList.remove('display');
-})
+}
