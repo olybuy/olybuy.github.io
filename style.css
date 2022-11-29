@@ -59,7 +59,7 @@ html {
     text-align: center;
 }
 
-.sedona1 {
+.button-sedona {
     background-image: url("../img/sedona1.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +67,7 @@ html {
     border-radius: 20px;
 }
 
-.sedona2 {
+.button-sedona-scss {
     background-image: url("../img/sedona2.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,15 +75,25 @@ html {
     border-radius: 20px;
 }
 
-.bear {
+.button-bear {
     background-image: url("../img/bear.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+.notes {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
 .notes__item {
     display: none;
+}
+
+.display {
+    display: block;
 }
 
 .footer {

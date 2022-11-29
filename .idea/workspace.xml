@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,21 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="27478000" />
-    </task>
-    <task id="LOCAL-00028" summary="Change in main page">
-      <created>1669629196144</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1669629196144</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Change in main page">
-      <created>1669629373478</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1669629373478</updated>
+      <workItem from="1669625572347" duration="28676000" />
     </task>
     <task id="LOCAL-00030" summary="Change in main page">
       <created>1669629506228</created>
@@ -415,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669717682712</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Add script">
+      <created>1669717793920</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1669717793920</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Add script">
+      <created>1669718068748</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1669718068748</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,9 +460,9 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669717684204">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669718070420">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669717684204" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669718070420" />
   </component>
 </project>

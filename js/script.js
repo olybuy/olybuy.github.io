@@ -1,7 +1,7 @@
-let projects = document.querySelectorAll('.projects__link');
-let notes = document.querySelectorAll('.notes__item');
-let sedona = document.querySelector('.sedona1');
+let sedona = document.querySelector('.button-sedona');
+let sedonaScss = document.querySelector('.button-sedona-scss');
+let bear = document.querySelector('.button-bear');
 
 sedona.addEventListener('mouseover', function (event) {
-    console.log('out');
+    document.querySelector('.note-sedona').classList.add('display');
 })
