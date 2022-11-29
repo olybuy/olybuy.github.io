@@ -14,6 +14,6 @@ sedona.onmouseout = function () {
 document.onmouseover = function (event) {
     let target = event.target;
     if (target.classList.contains('projects__link')) {
-        console.log('done');
+        console.log(target.classList);
     }
 }
