@@ -5,3 +5,7 @@ let bear = document.querySelector('.button-bear');
 sedona.addEventListener('mouseover', function (event) {
     document.querySelector('.note-sedona').classList.add('display');
 })
+
+sedona.addEventListener('mouseout', function (event) {
+    document.querySelector('.note-sedona').classList.remove('display');
+})
