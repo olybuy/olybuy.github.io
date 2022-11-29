@@ -23,6 +23,17 @@ html {
     background-size: cover;
 }
 
+.projects__title {
+    display: block;
+    margin: 0;
+    padding: 40px;
+    text-transform: uppercase;
+    font-family: "PoiretOne", "Arial", sans-serif;
+    font-size: 56px;
+    color: #fff;
+    text-align: center;
+}
+
 .projects__item {
     align-self: center;
 }
@@ -46,17 +57,6 @@ html {
 
 .projects__link:hover {
     transform: scale(1.5);
-}
-
-.projects__title {
-    display: block;
-    margin: 0;
-    padding: 40px;
-    text-transform: uppercase;
-    font-family: "PoiretOne", "Arial", sans-serif;
-    font-size: 56px;
-    color: #fff;
-    text-align: center;
 }
 
 .button-sedona {
@@ -87,6 +87,7 @@ html {
 }
 
 .notes {
+    align-self: center;
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -94,6 +95,9 @@ html {
 
 .notes__item {
     display: none;
+    color: #fff;
+    font-family: "PoiretOne", "Arial", sans-serif;
+    font-size: 24px;
 }
 
 .display {
