@@ -82,6 +82,10 @@ html {
     background-position: center;
 }
 
+.notes__item {
+    display: none;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
