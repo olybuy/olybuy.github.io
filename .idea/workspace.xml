@@ -11,8 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
       <recent name="$PROJECT_DIR$/sedona_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/sedona_1/images" />
@@ -73,14 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="34176000" />
-    </task>
-    <task id="LOCAL-00042" summary="Change in main page">
-      <created>1669639610215</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1669639610215</updated>
+      <workItem from="1669625572347" duration="34591000" />
     </task>
     <task id="LOCAL-00043" summary="Change in main page">
       <created>1669639891984</created>
@@ -418,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669723847760</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Add favicon">
+      <created>1669724628685</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1669724628685</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,16 +451,17 @@
     <MESSAGE value="Add fonts" />
     <MESSAGE value="Add mobile" />
     <MESSAGE value="Add script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add script" />
+    <MESSAGE value="Add favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add favicon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669723849076">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669724629974">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669723849076" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669724629974" />
   </component>
 </project>

@@ -14,7 +14,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: fit-content;
+    max-width: 710px;
     min-height: 100%;
     margin: 0 auto;
     background-image: url("../img/background_blue.svg");
@@ -84,6 +84,8 @@ html {
 
 .projects__notes {
     height: 25px;
+    text-align: center;
+    padding: 40px;
 }
 
 .notes {
