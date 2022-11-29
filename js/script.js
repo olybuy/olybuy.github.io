@@ -10,7 +10,7 @@ sedona.onmouseout = function () {
     document.querySelector('.note-sedona').classList.remove('display');
 }
 
-ul.onmouseover = function (event) {
+document.onmouseover = function (event) {
     let target = event.target;
     console.log(target);
 }
