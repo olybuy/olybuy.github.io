@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,14 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="34591000" />
-    </task>
-    <task id="LOCAL-00043" summary="Change in main page">
-      <created>1669639891984</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1669639891984</updated>
+      <workItem from="1669625572347" duration="35221000" />
     </task>
     <task id="LOCAL-00044" summary="Change in main page">
       <created>1669640121352</created>
@@ -418,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669724628685</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Fix main">
+      <created>1669725366216</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1669725366216</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,21 +445,21 @@
     <MESSAGE value="Add files bear" />
     <MESSAGE value="Change in main page" />
     <MESSAGE value="Add footer" />
-    <MESSAGE value="Fix main" />
     <MESSAGE value="Add fonts" />
     <MESSAGE value="Add mobile" />
     <MESSAGE value="Add script" />
     <MESSAGE value="Add favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add favicon" />
+    <MESSAGE value="Fix main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669724629974">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669725367720">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669724629974" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669725367720" />
   </component>
 </project>
