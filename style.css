@@ -82,6 +82,10 @@ html {
     background-position: center;
 }
 
+.projects__notes {
+    height: 25px;
+}
+
 .notes {
     padding: 0;
     margin: 0;

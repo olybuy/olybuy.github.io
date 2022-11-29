@@ -9,3 +9,8 @@ sedona.onmouseover = function () {
 sedona.onmouseout = function () {
     document.querySelector('.note-sedona').classList.remove('display');
 }
+
+ul.onmouseover = function (event) {
+    let target = event.target;
+    console.log(target);
+}
