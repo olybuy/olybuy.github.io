@@ -2,26 +2,34 @@ let sedona = document.querySelector('.button-sedona');
 let sedonaScss = document.querySelector('.button-sedona-scss');
 let bear = document.querySelector('.button-bear');
 
+let display = function (elemClass) {
+    document.querySelector(elemClass).classList.add('display');
+}
+
+let hide = function (elemClass) {
+    document.querySelector(elemClass).classList.remove('display');
+}
+
 sedona.onmouseover = function () {
-    document.querySelector('.note-sedona').classList.add('display');
+    display('.note-sedona');
 }
 
 sedona.onmouseout = function () {
-    document.querySelector('.note-sedona').classList.remove('display');
+    hide('.note-sedona');
 }
 
 sedonaScss.onmouseover = function () {
-    document.querySelector('.note-sedona-scss').classList.add('display');
+    display('.note-sedona-scss');
 }
 
 sedonaScss.onmouseout = function () {
-    document.querySelector('.note-sedona-scss').classList.remove('display');
+    hide('.note-sedona-scss');
 }
 
 bear.onmouseover = function () {
-    document.querySelector('.note-bear').classList.add('display');
+    display('.note-bear');
 }
 
 bear.onmouseout = function () {
-    document.querySelector('.note-bear').classList.remove('display');
+    hide('.note-bear');
 }
