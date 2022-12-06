@@ -165,6 +165,18 @@ html {
     overflow: hidden;
 }
 
+@media screen and (max-width: 650px) {
+    .projects {
+        background-size: auto 1000px;
+    }
+
+    .projects__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .projects {
         background-size: auto 1000px;
@@ -185,16 +197,5 @@ html {
 
     .notes {
         display: none;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .projects {
-        background-size: auto 1000px;
-    }
-
-    .projects__list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
 }
