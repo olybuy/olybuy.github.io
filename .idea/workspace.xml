@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,21 +75,7 @@
       <workItem from="1670307471970" duration="25000" />
       <workItem from="1670310911738" duration="54000" />
       <workItem from="1670311399098" duration="43000" />
-      <workItem from="1670316881409" duration="1042000" />
-    </task>
-    <task id="LOCAL-00051" summary="Fix main">
-      <created>1669647508035</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1669647508035</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Fix main">
-      <created>1669647936709</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1669647936709</updated>
+      <workItem from="1670316881409" duration="1352000" />
     </task>
     <task id="LOCAL-00053" summary="Fix main">
       <created>1669648092349</created>
@@ -423,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670317334696</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Housevop import">
+      <created>1670317969887</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1670317969887</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Housevop import">
+      <created>1670318227165</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1670318227165</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
