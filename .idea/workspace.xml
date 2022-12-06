@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,21 +77,7 @@
       <workItem from="1670307471970" duration="25000" />
       <workItem from="1670310911738" duration="54000" />
       <workItem from="1670311399098" duration="43000" />
-      <workItem from="1670316881409" duration="1352000" />
-    </task>
-    <task id="LOCAL-00053" summary="Fix main">
-      <created>1669648092349</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1669648092349</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Fix main">
-      <created>1669648467376</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1669648467376</updated>
+      <workItem from="1670316881409" duration="1787000" />
     </task>
     <task id="LOCAL-00055" summary="Fix main">
       <created>1669648922693</created>
@@ -420,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670318227165</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Housevop import">
+      <created>1670318327971</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1670318327971</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Small fixes">
+      <created>1670318488226</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1670318488226</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +459,8 @@
     <MESSAGE value="Fix modal Sedona 1" />
     <MESSAGE value="Add visually-hidden" />
     <MESSAGE value="Housevop import" />
-    <option name="LAST_COMMIT_MESSAGE" value="Housevop import" />
+    <MESSAGE value="Small fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
