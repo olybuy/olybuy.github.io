@@ -82,6 +82,13 @@ html {
     background-position: center;
 }
 
+.button-housevop {
+    background-image: url("../img/housevop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .projects__notes {
     height: 58px;
     text-align: center;

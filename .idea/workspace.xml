@@ -11,8 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bear/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bear/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +41,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/bear" />
-      <recent name="$PROJECT_DIR$/sedona_2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/housevop" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/sedona_1/images" />
-      <recent name="$PROJECT_DIR$/sedona_1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/bear" />
+      <recent name="$PROJECT_DIR$/sedona_2" />
     </key>
   </component>
   <component name="RunManager">
@@ -78,13 +77,7 @@
       <workItem from="1670307471970" duration="25000" />
       <workItem from="1670310911738" duration="54000" />
       <workItem from="1670311399098" duration="43000" />
-    </task>
-    <task id="LOCAL-00049" summary="Add footer">
-      <created>1669645610684</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1669645610684</updated>
+      <workItem from="1670316881409" duration="330000" />
     </task>
     <task id="LOCAL-00050" summary="Fix main">
       <created>1669646508447</created>
@@ -422,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669792324890</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Housevop import">
+      <created>1670316997225</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1670316997226</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +458,8 @@
     <MESSAGE value="Fix main" />
     <MESSAGE value="Fix modal Sedona 1" />
     <MESSAGE value="Add visually-hidden" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add visually-hidden" />
+    <MESSAGE value="Housevop import" />
+    <option name="LAST_COMMIT_MESSAGE" value="Housevop import" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
