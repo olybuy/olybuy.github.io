@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sedona_1/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/sedona_1/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bear/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bear/css/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +74,10 @@
       <option name="presentableId" value="Default" />
       <updated>1669623795975</updated>
       <workItem from="1669623797035" duration="334000" />
-      <workItem from="1669625572347" duration="39832000" />
-    </task>
-    <task id="LOCAL-00048" summary="Add footer">
-      <created>1669645351269</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1669645351269</updated>
+      <workItem from="1669625572347" duration="41599000" />
+      <workItem from="1670307471970" duration="25000" />
+      <workItem from="1670310911738" duration="54000" />
+      <workItem from="1670311399098" duration="43000" />
     </task>
     <task id="LOCAL-00049" summary="Add footer">
       <created>1669645610684</created>
@@ -420,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669791635358</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Add visually-hidden">
+      <created>1669792324890</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1669792324890</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,16 +457,17 @@
     <MESSAGE value="Add favicon" />
     <MESSAGE value="Fix main" />
     <MESSAGE value="Fix modal Sedona 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix modal Sedona 1" />
+    <MESSAGE value="Add visually-hidden" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add visually-hidden" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669791657552">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1669792326087">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669791657552" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1669792326087" />
   </component>
 </project>
