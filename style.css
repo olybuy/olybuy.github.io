@@ -85,8 +85,10 @@ html {
 .button-housevop {
     background-image: url("../img/housevop.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 80%;
     background-position: center;
+    background-color: rgb(36, 43, 51);
+    border-radius: 20px;
 }
 
 .projects__notes {
