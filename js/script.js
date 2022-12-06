@@ -1,6 +1,7 @@
 let sedona = document.querySelector('.button-sedona');
 let sedonaScss = document.querySelector('.button-sedona-scss');
 let bear = document.querySelector('.button-bear');
+let housevop = document.querySelector('.button-housevop');
 
 let display = function (elemClass) {
     document.querySelector(elemClass).classList.add('display');
@@ -32,4 +33,12 @@ bear.onmouseover = function () {
 
 bear.onmouseout = function () {
     hide('.note-bear');
+}
+
+housevop.onmouseover = function () {
+    display('.note-housevop');
+}
+
+housevop.onmouseout = function () {
+    hide('.note-housevop');
 }
