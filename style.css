@@ -2,7 +2,7 @@
     font-family: "PoiretOne";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/PoiretOne-Regular.ttf");
+    src: url("fonts/PoiretOne-Regular.ttf");
     font-display: swap;
 }
 
@@ -17,7 +17,7 @@ html {
     max-width: 710px;
     min-height: 100%;
     margin: 0 auto;
-    background-image: url("../img/background_blue.svg");
+    background-image: url("img/background_blue.svg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
@@ -61,7 +61,7 @@ html {
 }
 
 .button-sedona {
-    background-image: url("../img/sedona1.svg");
+    background-image: url("img/sedona1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -69,7 +69,7 @@ html {
 }
 
 .button-sedona-scss {
-    background-image: url("../img/sedona2.svg");
+    background-image: url("img/sedona2.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -77,14 +77,14 @@ html {
 }
 
 .button-bear {
-    background-image: url("../img/bear.svg");
+    background-image: url("img/bear.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .button-housevop {
-    background-image: url("../img/housevop.svg");
+    background-image: url("img/housevop.svg");
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
@@ -132,21 +132,21 @@ html {
 }
 
 .footer__tel {
-    background-image: url("../img/phone.svg");
+    background-image: url("img/phone.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .footer__email {
-    background-image: url("../img/mail.svg");
+    background-image: url("img/mail.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .footer__vk {
-    background-image: url("../img/icon-vkontakte.svg");
+    background-image: url("img/icon-vkontakte.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
