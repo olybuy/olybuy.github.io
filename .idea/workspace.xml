@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,14 +82,7 @@
       <workItem from="1671703219629" duration="2136000" />
       <workItem from="1673288515682" duration="596000" />
       <workItem from="1673418697704" duration="34000" />
-      <workItem from="1673425360533" duration="10663000" />
-    </task>
-    <task id="LOCAL-00063" summary="Add mobile">
-      <created>1669660341793</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1669660341793</updated>
+      <workItem from="1673425360533" duration="11501000" />
     </task>
     <task id="LOCAL-00064" summary="Add mobile">
       <created>1669663228280</created>
@@ -430,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673434734313</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Touch">
+      <created>1673447548981</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1673447548981</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,17 +469,18 @@
     <MESSAGE value="Map" />
     <MESSAGE value="Change structure" />
     <MESSAGE value="Slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slider" />
+    <MESSAGE value="Touch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Touch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673434736968">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673447550511">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673434736968" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673447550511" />
     <state x="535" y="146" width="597" height="548" key="find.popup" timestamp="1671704617329">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
