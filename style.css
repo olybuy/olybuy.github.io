@@ -25,7 +25,7 @@ html {
 
 .page__title {
     display: block;
-    margin: 0;
+    margin: 0 auto;
     padding: 40px;
     text-transform: uppercase;
     font-family: "PoiretOne", "Arial", sans-serif;
@@ -66,12 +66,14 @@ html {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    scroll-snap-type: y mandatory;
 }
 
 .projects__item {
     align-self: center;
     width: 150px;
     height: 150px;
+    scroll-snap-align: center;
 }
 
 .projects__link {
@@ -201,8 +203,9 @@ html {
         background-size: auto 1000px;
     }
 
-    .projects__title {
-        font-size: 42px;
+    .page__title {
+        font-size: 38px;
+        padding: 40px 0;
     }
 
     .slider__wrapper {
