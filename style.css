@@ -207,17 +207,35 @@ html {
     }
 
     .slider__wrapper {
-        width: 150px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .projects__list {
+        width: 100px;
+        height: 100px;
+    }
+
+    .projects__item {
+        width: 100px;
+        height: 100px;
+    }
+
+    .projects__link:hover {
+        transform: none;
+    }
+
+
+    .projects__link {
+        width: 100px;
+        height: 100px;
+        transition: none;
+        margin: 0;
     }
 
     .frame {
         width: 100%;
         height: 100%;
-    }
-
-    .projects__link {
-        width: 100px;
-        height: 100px;
     }
 
     .notes {

@@ -11,12 +11,13 @@ let slides = document.querySelectorAll('.projects__item');
 let slideList = document.querySelector('.projects__list');
 let slideIndex = 0;
 let screenWidth = document.documentElement.clientWidth;
+let slideWidth = slides[0].offsetWidth + 20;
 
 
 slide = function () {
-    let n = -170;
+    let shift = slideWidth * -1;
     slideList.style.transition = 'transform .5s';
-    slideList.style.transform = 'translateX(' + n * slideIndex  + 'px)';
+    slideList.style.transform = 'translateX(' + shift * slideIndex  + 'px)';
 
     arrowLeft.classList.toggle('disabled', slideIndex === 0);
     if (screenWidth < 480) {
