@@ -7,37 +7,45 @@
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.ico">
     </head>
-    <body class="projects">
-        <h1 class="projects__title">Kramskaia Marina</h1>
-        <ul class="projects__list">
-            <li class="projects__item">
-                <a class="projects__link button-sedona" href="sedona_1/index.html">
-                    <span class="visually-hidden">Сайт выбора гостиниц в городе Седона</span>
-                </a>
-            </li>
-            <li class="projects__item">
-                <a class="projects__link button-sedona-scss" href="sedona_2/index.html">
-                    <span class="visually-hidden">Сайт города Седона</span>
-                </a>
-            </li>
-            <li class="projects__item">
-                <a class="projects__link button-bear" href="bear/index.html">
-                    <span class="visually-hidden">Сайт вязаных игрушек Мишка</span>
-                </a>
-            </li>
-            <li class="projects__item">
-                <a class="projects__link button-housevop" href="housevop/index.html">
-                    <span class="visually-hidden">Сайт вязаных игрушек Мишка</span>
-                </a>
-            </li>
-        </ul>
-        <ul class="projects__notes notes">
-            <li class="notes__item note-sedona">Сайт подбора гостиниц в городе Седона. HTML, CSS. <br/>Не адаптивная верстка.</li>
-            <li class="notes__item note-sedona-scss">Сайт о городе Седона. HTML, SCSS, BEM. <br/>Адаптивная верстка. Автоматизация.</li>
-            <li class="notes__item note-bear">Сайт интернет-магазина вязаных игрушек. HTML, SCSS, BEM. <br/>Адаптивная верстка. Автоматизация.</li>
-            <li class="notes__item note-housevop">Landing page жилого комплекса. HTML, BEM. <br/>Адаптивная верстка.</li>
-        </ul>
-        <footer class="projects__footer footer">
+    <body class="page">
+        <h1 class="page__title">Kramskaia Marina</h1>
+        <div class="projects">
+            <div class="projects__slider slider">
+                <button class="slider__arr arrow-left disabled" type="button"><</button>
+                <div class="slider__wrapper">
+                    <ul class="projects__list">
+                        <li class="projects__item">
+                            <a class="projects__link button-sedona" href="sedona_1/index.html">
+                                <span class="visually-hidden">Сайт выбора гостиниц в городе Седона</span>
+                            </a>
+                        </li>
+                        <li class="projects__item">
+                            <a class="projects__link button-sedona-scss" href="sedona_2/index.html">
+                                <span class="visually-hidden">Сайт города Седона</span>
+                            </a>
+                        </li>
+                        <li class="projects__item">
+                            <a class="projects__link button-bear" href="bear/index.html">
+                                <span class="visually-hidden">Сайт вязаных игрушек Мишка</span>
+                            </a>
+                        </li>
+                        <li class="projects__item">
+                            <a class="projects__link button-housevop" href="housevop/index.html">
+                                <span class="visually-hidden">Сайт вязаных игрушек Мишка</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="slider__arr arrow-right" type="button">></button>
+            </div>
+            <ul class="projects__notes notes">
+                <li class="notes__item note-sedona">Сайт подбора гостиниц в городе Седона. HTML, CSS. <br/>Не адаптивная верстка.</li>
+                <li class="notes__item note-sedona-scss">Сайт о городе Седона. HTML, SCSS, BEM. <br/>Адаптивная верстка. Автоматизация.</li>
+                <li class="notes__item note-bear">Сайт интернет-магазина вязаных игрушек. HTML, SCSS, BEM. <br/>Адаптивная верстка. Автоматизация.</li>
+                <li class="notes__item note-housevop">Landing page жилого комплекса. HTML, BEM. <br/>Адаптивная верстка.</li>
+            </ul>
+        </div>
+        <footer class="footer">
             <a class="footer__item footer__tel" href="tel:+994509889117">
                 <span class="visually-hidden">Номер телефона</span>
             </a>
