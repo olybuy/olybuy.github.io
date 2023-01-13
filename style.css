@@ -53,14 +53,13 @@ html {
 }
 
 .slider__wrapper {
-    width: 490px;
+    width: 450px;
     height: 150px;
     overflow: hidden;
 }
 
 .projects__list {
     display: flex;
-    gap: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -206,13 +205,14 @@ html {
     }
 
     .slider__wrapper {
-        width: 100px;
+        width: 120px;
         height: 100px;
     }
 
     .projects__item {
         width: 100px;
         height: 100px;
+        padding: 0 10px;
     }
 
     .projects__link:hover {
@@ -237,6 +237,6 @@ html {
     }
 
     .slider__wrapper {
-        width: 320px;
+        width: 300px;
     }
 }
