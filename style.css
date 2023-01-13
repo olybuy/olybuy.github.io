@@ -18,7 +18,7 @@ html {
     min-height: 100%;
     margin: 0 auto;
     background-image: url("img/background_blue.svg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: left;
     background-size: cover;
 }
@@ -61,11 +61,10 @@ html {
 .projects__list {
     display: flex;
     gap: 20px;
-    width: 150px;
-    height: 150px;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    transform: translateX(0);
 }
 
 .projects__item {
@@ -211,11 +210,6 @@ html {
         height: 100px;
     }
 
-    .projects__list {
-        width: 100px;
-        height: 100px;
-    }
-
     .projects__item {
         width: 100px;
         height: 100px;
@@ -225,17 +219,11 @@ html {
         transform: none;
     }
 
-
     .projects__link {
         width: 100px;
         height: 100px;
         transition: none;
         margin: 0;
-    }
-
-    .frame {
-        width: 100%;
-        height: 100%;
     }
 
     .notes {
