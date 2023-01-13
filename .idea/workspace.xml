@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,14 +83,7 @@
       <workItem from="1671703219629" duration="2136000" />
       <workItem from="1673288515682" duration="596000" />
       <workItem from="1673418697704" duration="34000" />
-      <workItem from="1673425360533" duration="19577000" />
-    </task>
-    <task id="LOCAL-00068" summary="Add mobile">
-      <created>1669664928095</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1669664928095</updated>
+      <workItem from="1673425360533" duration="19931000" />
     </task>
     <task id="LOCAL-00069" summary="Add mobile">
       <created>1669665104095</created>
@@ -430,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673632803698</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Add Pages">
+      <created>1673633907496</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1673633907496</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,10 +479,10 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673632808984">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673633908660">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673632808984" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673633908660" />
     <state x="535" y="146" width="597" height="548" key="find.popup" timestamp="1671704617329">
       <screen x="0" y="25" width="1440" height="791" />
     </state>

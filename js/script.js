@@ -2,6 +2,7 @@ let sedona = document.querySelector('.button-sedona');
 let sedonaScss = document.querySelector('.button-sedona-scss');
 let bear = document.querySelector('.button-bear');
 let housevop = document.querySelector('.button-housevop');
+let pages = document.querySelector('.button-pages');
 
 
 let slider = document.querySelector('.slider');
@@ -81,4 +82,12 @@ housevop.onmouseover = function () {
 
 housevop.onmouseout = function () {
     hide('.note-housevop');
+}
+
+pages.onmouseover = function () {
+    display('.note-pages');
+}
+
+pages.onmouseout = function () {
+    hide('.note-pages');
 }
