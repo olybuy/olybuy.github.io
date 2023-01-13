@@ -121,6 +121,14 @@ html {
     border-radius: 20px;
 }
 
+.button-pages {
+    background-image: url("img/pages.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
 .projects__notes {
     height: 58px;
     text-align: center;

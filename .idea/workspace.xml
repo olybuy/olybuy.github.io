@@ -11,70 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/amazin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/bg/books.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/bg/books.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/bg/books@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/bg/books@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-1@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-1@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-2@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-2@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-3@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/article-3@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/atomic-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/atomic-min.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/atomic-min@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/atomic-min@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/author.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/author.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/author@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/author@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-1@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-2@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/avatar-3@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/dark-light-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/dark-light-min.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/dark-light-min@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/dark-light-min@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/dark-light.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/dark-light.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/dark-light@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/dark-light@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/girl-book.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/girl-book.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/girl-book@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/girl-book@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/qr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/qr.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/qr@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/content/qr@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/megan.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/megank.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/img/urban.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,17 +42,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/bear" />
+      <recent name="$PROJECT_DIR$/sedona_2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/housevop" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/sedona_1/images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/bear" />
-      <recent name="$PROJECT_DIR$/sedona_2" />
     </key>
   </component>
   <component name="RunManager">
@@ -147,14 +85,7 @@
       <workItem from="1671703219629" duration="2136000" />
       <workItem from="1673288515682" duration="596000" />
       <workItem from="1673418697704" duration="34000" />
-      <workItem from="1673425360533" duration="18712000" />
-    </task>
-    <task id="LOCAL-00067" summary="Add mobile">
-      <created>1669664723271</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1669664723271</updated>
+      <workItem from="1673425360533" duration="19577000" />
     </task>
     <task id="LOCAL-00068" summary="Add mobile">
       <created>1669664928095</created>
@@ -492,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673619195606</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Add Pages">
+      <created>1673632803698</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1673632803698</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +449,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial file" />
     <MESSAGE value="index fix" />
     <MESSAGE value="Images" />
     <MESSAGE value="Files" />
@@ -536,17 +473,18 @@
     <MESSAGE value="Slider" />
     <MESSAGE value="Touch" />
     <MESSAGE value="Fix slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix slider" />
+    <MESSAGE value="Add Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673619197115">
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673632808984">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673619197115" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673632808984" />
     <state x="535" y="146" width="597" height="548" key="find.popup" timestamp="1671704617329">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
