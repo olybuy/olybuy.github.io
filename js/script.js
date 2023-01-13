@@ -1,10 +1,3 @@
-let sedona = document.querySelector('.button-sedona');
-let sedonaScss = document.querySelector('.button-sedona-scss');
-let bear = document.querySelector('.button-bear');
-let housevop = document.querySelector('.button-housevop');
-let pages = document.querySelector('.button-pages');
-
-
 let slider = document.querySelector('.slider');
 let arrowLeft = document.querySelector('.arrow-left');
 let arrowRight = document.querySelector('.arrow-right');
@@ -44,50 +37,19 @@ slider.addEventListener('click', function () {
     slide();
 })
 
-let display = function (elemClass) {
-    document.querySelector(elemClass).classList.add('display');
+
+let projectsArr = ['sedona', 'sedona-scss', 'bear', 'housevop', 'pages'];
+
+let textAppear = function (arr) {
+    for (let elem of arr) {
+        let projectButton = document.querySelector('.button-' + elem);
+        projectButton.onmouseover = function () {
+            document.querySelector('.note-' + elem).classList.add('display');
+        }
+        projectButton.onmouseout = function () {
+            document.querySelector('.note-' + elem).classList.remove('display');
+        }
+    }
 }
 
-let hide = function (elemClass) {
-    document.querySelector(elemClass).classList.remove('display');
-}
-
-sedona.onmouseover = function () {
-    display('.note-sedona');
-}
-
-sedona.onmouseout = function () {
-    hide('.note-sedona');
-}
-
-sedonaScss.onmouseover = function () {
-    display('.note-sedona-scss');
-}
-
-sedonaScss.onmouseout = function () {
-    hide('.note-sedona-scss');
-}
-
-bear.onmouseover = function () {
-    display('.note-bear');
-}
-
-bear.onmouseout = function () {
-    hide('.note-bear');
-}
-
-housevop.onmouseover = function () {
-    display('.note-housevop');
-}
-
-housevop.onmouseout = function () {
-    hide('.note-housevop');
-}
-
-pages.onmouseover = function () {
-    display('.note-pages');
-}
-
-pages.onmouseout = function () {
-    hide('.note-pages');
-}
+textAppear(projectsArr);
