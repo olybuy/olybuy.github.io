@@ -8,6 +8,10 @@
 
 html {
     height: 100%;
+    background-image: url("img/background_blue.svg");
+    background-repeat: repeat-y;
+    background-position: left;
+    background-size: cover;
 }
 
 .page {
@@ -17,10 +21,6 @@ html {
     max-width: 710px;
     min-height: 100%;
     margin: 0 auto;
-    background-image: url("img/background_blue.svg");
-    background-repeat: repeat-y;
-    background-position: left;
-    background-size: cover;
 }
 
 .page__title {
@@ -42,7 +42,7 @@ html {
     margin: 0 auto 25px;
 }
 
-.slider__arr {
+.slider__arrow {
     width: 30px;
     height: 30px;
     background-color: inherit;
@@ -50,6 +50,11 @@ html {
     border: 1px solid #ffffff;
     border-radius: 50%;
     color: #ffffff;
+    transition: transform .2s;
+}
+
+.slider__arrow:hover {
+    transform: scale(1.2);
 }
 
 .slider__wrapper {
@@ -77,7 +82,7 @@ html {
     width: 100px;
     height: 100px;
     margin: 25px;
-    transition: transform .2s;
+    transition: transform .4s;
 }
 
 .projects__link:hover {
@@ -89,44 +94,34 @@ html {
     pointer-events: none;
 }
 
-.button-sedona {
-    background-image: url("img/sedona1.svg");
+.projects__button {
+    background-color: #FFCA42;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
 }
 
-.button-sedona-scss {
+.button-sedona-hotel {
+    background-image: url("img/sedona1.svg");
+}
+
+.button-sedona-city {
     background-image: url("img/sedona2.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
 }
 
 .button-bear {
     background-image: url("img/bear.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .button-housevop {
     background-image: url("img/housevop.svg");
-    background-repeat: no-repeat;
     background-size: 80%;
-    background-position: center;
     background-color: rgb(36, 43, 51);
-    border-radius: 20px;
 }
 
 .button-pages {
     background-image: url("img/pages.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
 }
 
 .projects__notes {
@@ -162,6 +157,9 @@ html {
 .footer__item {
     width: 25px;
     height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .footer__item:hover {
@@ -170,23 +168,14 @@ html {
 
 .footer__tel {
     background-image: url("img/phone.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
 }
 
 .footer__email {
     background-image: url("img/mail.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
 }
 
-.footer__vk {
-    background-image: url("img/icon-vkontakte.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.footer__tg {
+    background-image: url("img/telegram.svg");
 }
 
 .visually-hidden {

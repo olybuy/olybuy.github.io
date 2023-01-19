@@ -11,8 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/telegram.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bear.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bear.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +42,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bear" />
       <recent name="$PROJECT_DIR$/sedona_2" />
     </key>
@@ -86,14 +90,7 @@
       <workItem from="1671703219629" duration="2136000" />
       <workItem from="1673288515682" duration="596000" />
       <workItem from="1673418697704" duration="34000" />
-      <workItem from="1673425360533" duration="21348000" />
-    </task>
-    <task id="LOCAL-00070" summary="Add mobile">
-      <created>1669665378538</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1669665378538</updated>
+      <workItem from="1673425360533" duration="27213000" />
     </task>
     <task id="LOCAL-00071" summary="Add mobile">
       <created>1669666030959</created>
@@ -431,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673634380114</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Optimize notes">
+      <created>1673635535389</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1673635535389</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +454,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="index fix" />
     <MESSAGE value="Images" />
     <MESSAGE value="Files" />
     <MESSAGE value="Fix links" />
@@ -475,17 +478,18 @@
     <MESSAGE value="Touch" />
     <MESSAGE value="Fix slider" />
     <MESSAGE value="Add Pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Pages" />
+    <MESSAGE value="Optimize notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize notes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669631102949">
+    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1673708986427">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1669631102949" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673634381785">
+    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1673708986427" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673635537395">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673634381785" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673635537395" />
     <state x="535" y="146" width="597" height="548" key="find.popup" timestamp="1671704617329">
       <screen x="0" y="25" width="1440" height="791" />
     </state>

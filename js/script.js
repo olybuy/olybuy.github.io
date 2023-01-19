@@ -37,8 +37,16 @@ slider.addEventListener('click', function () {
     slide();
 })
 
+let buttonsArr = document.querySelectorAll('.projects__link');
+let namesArr = [];
 
-let projectsArr = ['sedona', 'sedona-scss', 'bear', 'housevop', 'pages'];
+for (let elem of buttonsArr) {
+    const str = elem.className;
+    const pattern = 'button-';
+    const index = str.indexOf(pattern) + pattern.length;
+    const name = str.slice(index);
+    namesArr.push(name);
+}
 
 let textAppear = function (arr) {
     for (let elem of arr) {
@@ -52,4 +60,4 @@ let textAppear = function (arr) {
     }
 }
 
-textAppear(projectsArr);
+textAppear(namesArr);
