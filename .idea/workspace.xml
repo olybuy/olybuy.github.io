@@ -10,15 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,11 +55,14 @@
       <recent name="$PROJECT_DIR$/sedona_1/images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/olybuy.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/olybuy.github.io/words/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/olybuy.github.io/puzzles/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/olybuy.github.io/sedona_1/index.html" useBuiltInWebServerPort="true">
@@ -78,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="Node.js.objects.js" />
@@ -107,14 +103,7 @@
       <workItem from="1673425360533" duration="42440000" />
       <workItem from="1675159369082" duration="29306000" />
       <workItem from="1678863076553" duration="1524000" />
-      <workItem from="1684315186610" duration="1293000" />
-    </task>
-    <task id="LOCAL-00072" summary="Add mobile">
-      <created>1669666204084</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1669666204084</updated>
+      <workItem from="1684315186610" duration="1560000" />
     </task>
     <task id="LOCAL-00073" summary="Add mobile">
       <created>1669666350280</created>
@@ -452,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674140383897</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Add words">
+      <created>1684339778412</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1684339778413</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +467,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Files" />
     <MESSAGE value="Fix links" />
     <MESSAGE value="Add files sedona 2" />
     <MESSAGE value="Add images" />
@@ -496,7 +491,8 @@
     <MESSAGE value="Add Pages" />
     <MESSAGE value="Optimize notes" />
     <MESSAGE value="Add TG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TG" />
+    <MESSAGE value="Add words" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add words" />
   </component>
   <component name="WindowStateProjectService">
     <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678866222584">
