@@ -51,6 +51,7 @@
 .image {
     width: 86px;
     height: 86px;
+    touch-action: none;
 }
 
 .element-cell .image {

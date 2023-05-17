@@ -10,7 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,23 +40,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/puzzles" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/bear" />
-      <recent name="$PROJECT_DIR$/sedona_2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/housevop" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/sedona_1/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/puzzles" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/bear" />
+      <recent name="$PROJECT_DIR$/sedona_2" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (3)">
@@ -103,14 +108,7 @@
       <workItem from="1673425360533" duration="42440000" />
       <workItem from="1675159369082" duration="29306000" />
       <workItem from="1678863076553" duration="1524000" />
-      <workItem from="1684315186610" duration="1560000" />
-    </task>
-    <task id="LOCAL-00073" summary="Add mobile">
-      <created>1669666350280</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1669666350280</updated>
+      <workItem from="1684315186610" duration="5218000" />
     </task>
     <task id="LOCAL-00074" summary="Add script">
       <created>1669716445818</created>
@@ -448,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684339778413</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Add puzzles">
+      <created>1684340001311</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1684340001311</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +472,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix links" />
     <MESSAGE value="Add files sedona 2" />
     <MESSAGE value="Add images" />
     <MESSAGE value="Add files bear" />
@@ -492,17 +496,14 @@
     <MESSAGE value="Optimize notes" />
     <MESSAGE value="Add TG" />
     <MESSAGE value="Add words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add words" />
+    <MESSAGE value="Add puzzles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add puzzles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678866222584">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.791@0.25.1440.791" timestamp="1678866222584" />
-    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1673708986427">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1673708986427" />
     <state x="851" y="230" key="#xdebugger.evaluate" timestamp="1676115043840">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
@@ -575,17 +576,17 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1342" height="249" key="GridCell.Tab.3.right/0.25.1440.791@0.25.1440.791" timestamp="1676114613071" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1674140385778">
+    <state x="293" y="144" key="Vcs.Push.Dialog.v2" timestamp="1684340007271">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1674140385778" />
-    <state x="535" y="146" width="597" height="548" key="find.popup" timestamp="1671704617329">
+    <state x="293" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1684340007271" />
+    <state x="383" y="146" width="597" height="548" key="find.popup" timestamp="1684341683682">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="535" y="146" width="597" height="548" key="find.popup/0.25.1440.791@0.25.1440.791" timestamp="1671704617329" />
-    <state x="346" y="140" width="670" height="58" key="search.everywhere.popup" timestamp="1673448460297">
+    <state x="383" y="146" width="597" height="548" key="find.popup/0.25.1440.791@0.25.1440.791" timestamp="1684341683682" />
+    <state x="346" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1684347927184">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="346" y="140" width="670" height="58" key="search.everywhere.popup/0.25.1440.791@0.25.1440.791" timestamp="1673448460297" />
+    <state x="346" y="140" width="670" height="676" key="search.everywhere.popup/0.25.1440.791@0.25.1440.791" timestamp="1684347927184" />
   </component>
 </project>
