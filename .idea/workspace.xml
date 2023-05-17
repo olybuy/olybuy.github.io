@@ -11,12 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/words/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/words/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/words/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bear.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bear.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -61,12 +63,24 @@
       <recent name="$PROJECT_DIR$/sedona_1/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/olybuy.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/olybuy.github.io/words/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/olybuy.github.io/sedona_1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="objects.js" type="NodeJSConfigurationType" temporary="true" path-to-node="/usr/local/bin/node" nameIsGenerated="true" path-to-js-file="objects.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="Node.js.objects.js" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -90,14 +104,10 @@
       <workItem from="1671703219629" duration="2136000" />
       <workItem from="1673288515682" duration="596000" />
       <workItem from="1673418697704" duration="34000" />
-      <workItem from="1673425360533" duration="27213000" />
-    </task>
-    <task id="LOCAL-00071" summary="Add mobile">
-      <created>1669666030959</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1669666030959</updated>
+      <workItem from="1673425360533" duration="42440000" />
+      <workItem from="1675159369082" duration="29306000" />
+      <workItem from="1678863076553" duration="1524000" />
+      <workItem from="1684315186610" duration="1293000" />
     </task>
     <task id="LOCAL-00072" summary="Add mobile">
       <created>1669666204084</created>
@@ -435,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673635535389</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Add TG">
+      <created>1674140383897</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1674140383897</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Images" />
     <MESSAGE value="Files" />
     <MESSAGE value="Fix links" />
     <MESSAGE value="Add files sedona 2" />
@@ -479,17 +495,94 @@
     <MESSAGE value="Fix slider" />
     <MESSAGE value="Add Pages" />
     <MESSAGE value="Optimize notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimize notes" />
+    <MESSAGE value="Add TG" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TG" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678866222584">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.791@0.25.1440.791" timestamp="1678866222584" />
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1673708986427">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="474" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1673708986427" />
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1673635537395">
+    <state x="851" y="230" key="#xdebugger.evaluate" timestamp="1676115043840">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1673635537395" />
+    <state x="851" y="230" key="#xdebugger.evaluate/0.25.1440.791@0.25.1440.791" timestamp="1676115043840" />
+    <state x="490" y="203" key="FileChooserDialogImpl" timestamp="1676114398939">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state x="490" y="203" key="FileChooserDialogImpl/0.25.1440.791@0.25.1440.791" timestamp="1676114398939" />
+    <state width="1342" height="291" key="GridCell.Tab.0.bottom" timestamp="1684312451550">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1684312451550" />
+    <state width="1342" height="291" key="GridCell.Tab.0.center" timestamp="1684312451549">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1684312451549" />
+    <state width="1342" height="291" key="GridCell.Tab.0.left" timestamp="1684312451549">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1684312451549" />
+    <state width="1342" height="291" key="GridCell.Tab.0.right" timestamp="1684312451550">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1684312451550" />
+    <state width="1342" height="291" key="GridCell.Tab.1.bottom" timestamp="1684312451552">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.1.bottom/0.25.1440.791@0.25.1440.791" timestamp="1684312451552" />
+    <state width="1342" height="291" key="GridCell.Tab.1.center" timestamp="1684312451551">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.1.center/0.25.1440.791@0.25.1440.791" timestamp="1684312451551" />
+    <state width="1342" height="291" key="GridCell.Tab.1.left" timestamp="1684312451551">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.1.left/0.25.1440.791@0.25.1440.791" timestamp="1684312451551" />
+    <state width="1342" height="291" key="GridCell.Tab.1.right" timestamp="1684312451551">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.1.right/0.25.1440.791@0.25.1440.791" timestamp="1684312451551" />
+    <state width="1342" height="291" key="GridCell.Tab.2.bottom" timestamp="1684312451554">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.2.bottom/0.25.1440.791@0.25.1440.791" timestamp="1684312451554" />
+    <state width="1342" height="291" key="GridCell.Tab.2.center" timestamp="1684312451554">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.2.center/0.25.1440.791@0.25.1440.791" timestamp="1684312451554" />
+    <state width="1342" height="291" key="GridCell.Tab.2.left" timestamp="1684312451552">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.2.left/0.25.1440.791@0.25.1440.791" timestamp="1684312451552" />
+    <state width="1342" height="291" key="GridCell.Tab.2.right" timestamp="1684312451554">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="291" key="GridCell.Tab.2.right/0.25.1440.791@0.25.1440.791" timestamp="1684312451554" />
+    <state width="1342" height="249" key="GridCell.Tab.3.bottom" timestamp="1676114613072">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="249" key="GridCell.Tab.3.bottom/0.25.1440.791@0.25.1440.791" timestamp="1676114613072" />
+    <state width="1342" height="249" key="GridCell.Tab.3.center" timestamp="1676114613071">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="249" key="GridCell.Tab.3.center/0.25.1440.791@0.25.1440.791" timestamp="1676114613071" />
+    <state width="1342" height="249" key="GridCell.Tab.3.left" timestamp="1676114613070">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="249" key="GridCell.Tab.3.left/0.25.1440.791@0.25.1440.791" timestamp="1676114613070" />
+    <state width="1342" height="249" key="GridCell.Tab.3.right" timestamp="1676114613071">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1342" height="249" key="GridCell.Tab.3.right/0.25.1440.791@0.25.1440.791" timestamp="1676114613071" />
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2" timestamp="1674140385778">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state x="340" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1674140385778" />
     <state x="535" y="146" width="597" height="548" key="find.popup" timestamp="1671704617329">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
