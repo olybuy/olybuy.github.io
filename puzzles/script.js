@@ -48,7 +48,7 @@ container.onpointerdown = function (event) {
                 placeImage(target, startPoint);
             }
 
-            checkElementPlace();
+            setTimeout(checkElementPlace, 300);
         };
 
         function moveAt(pageX, pageY) {
