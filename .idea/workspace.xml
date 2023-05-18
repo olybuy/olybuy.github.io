@@ -13,7 +13,6 @@
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzles/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +107,7 @@
       <workItem from="1673425360533" duration="42440000" />
       <workItem from="1675159369082" duration="29306000" />
       <workItem from="1678863076553" duration="1524000" />
-      <workItem from="1684315186610" duration="5218000" />
-    </task>
-    <task id="LOCAL-00074" summary="Add script">
-      <created>1669716445818</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1669716445818</updated>
+      <workItem from="1684315186610" duration="14172000" />
     </task>
     <task id="LOCAL-00075" summary="Add script">
       <created>1669716906061</created>
@@ -453,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684340001311</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Fix touch">
+      <created>1684349568719</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1684349568719</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add files sedona 2" />
     <MESSAGE value="Add images" />
     <MESSAGE value="Add files bear" />
     <MESSAGE value="Change in main page" />
@@ -497,7 +495,8 @@
     <MESSAGE value="Add TG" />
     <MESSAGE value="Add words" />
     <MESSAGE value="Add puzzles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add puzzles" />
+    <MESSAGE value="Fix touch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix touch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678866222584">
@@ -576,10 +575,10 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1342" height="249" key="GridCell.Tab.3.right/0.25.1440.791@0.25.1440.791" timestamp="1676114613071" />
-    <state x="293" y="144" key="Vcs.Push.Dialog.v2" timestamp="1684340007271">
+    <state x="293" y="144" key="Vcs.Push.Dialog.v2" timestamp="1684349581853">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="293" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1684340007271" />
+    <state x="293" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1684349581853" />
     <state x="383" y="146" width="597" height="548" key="find.popup" timestamp="1684341683682">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
