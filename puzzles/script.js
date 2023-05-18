@@ -1,7 +1,7 @@
 container.onpointerdown = function (event) {
     const target = event.target;
     target.hidden = true;
-    const elemBelowTarget = document.elementFromPoint(event.clientX, event.clientY);
+    const startPoint = document.elementFromPoint(event.clientX, event.clientY);
     target.hidden = false;
 
     if (target.classList.contains('image')) {
@@ -10,32 +10,31 @@ container.onpointerdown = function (event) {
         document.body.append(target);
         moveAt(event.pageX, event.pageY);
 
+        document.addEventListener('pointermove', onPointerMove);
         function onPointerMove(event) {
             moveAt(event.pageX, event.pageY);
         }
-
-        document.addEventListener('pointermove', onPointerMove);
 
         target.onpointerup = function(event) {
             document.removeEventListener('pointermove', onPointerMove);
             target.onpointerup = null;
 
             target.hidden = true;
-            const elemBelow = document.elementFromPoint(event.clientX, event.clientY);
+            const endPoint = document.elementFromPoint(event.clientX, event.clientY);
 
-            if (elemBelow.classList.contains('element-cell')) {
+            if (endPoint.classList.contains('element-cell')) {
                 target.style.width = '150px';
                 target.style.height = '150px';
-                placeImage(target, elemBelow);
-                elemBelowTarget.remove();
-            } else if (elemBelow.classList.contains('image')) {
+                placeImage(target, endPoint);
+                startPoint.remove();
+            } else if (endPoint.classList.contains('image') && startPoint.classList.contains('element-cell')) {
                 const placeForImage = document.createElement('div');
                 placeForImage.classList.add('image-part');
                 placeImage(target, placeForImage);
-                const elem = elemBelow.parentNode;
-                elem.after(placeForImage);
+                const parentElement = endPoint.parentNode;
+                parentElement.after(placeForImage);
             } else {
-                placeImage(target, elemBelowTarget);
+                placeImage(target, startPoint);
             }
         };
 
