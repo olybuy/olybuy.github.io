@@ -38,9 +38,17 @@ container.onpointerdown = function (event) {
             } else if (startPoint.classList.contains('element-cell') && endPoint.classList.contains('element-cell')) {
                 placeImage(target, endPoint);
 
+            } else if(startPoint.classList.contains('element-cell') && endPoint.classList.contains('elements')) {
+                const placeForImage = document.createElement('div');
+                placeForImage.classList.add('image-part');
+                placeImage(target, placeForImage);
+                endPoint.append(placeForImage);
+
             } else {
                 placeImage(target, startPoint);
             }
+
+            checkElementPlace();
         };
 
         function moveAt(pageX, pageY) {
@@ -57,5 +65,21 @@ container.onpointerdown = function (event) {
         target.ondragstart = function() {
             return false;
         };
+    }
+}
+
+function checkElementPlace() {
+    let deskCellArr = [];
+    let n = 0;
+    deskCellArr = document.querySelectorAll('.element-cell > .image');
+    if (deskCellArr.length === 9) {
+        for (let i = 0; i <= deskCellArr.length-1; i++) {
+            if (+deskCellArr[i].id === i) {
+                n++
+            }
+        }
+    }
+    if (n === 9) {
+        alert('YOU ARE THE WINNER');
     }
 }
