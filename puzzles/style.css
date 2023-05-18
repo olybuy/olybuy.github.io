@@ -41,6 +41,10 @@
     z-index: 100;
 }
 
+.element-cell-frameless {
+    border: 0;
+}
+
 .image-part {
     width: 86px;
     height: 86px;

@@ -69,17 +69,21 @@ container.onpointerdown = function (event) {
 }
 
 function checkElementPlace() {
-    let deskCellArr = [];
+    let deskImagesArr = [];
     let n = 0;
-    deskCellArr = document.querySelectorAll('.element-cell > .image');
-    if (deskCellArr.length === 9) {
-        for (let i = 0; i <= deskCellArr.length-1; i++) {
-            if (+deskCellArr[i].id === i) {
+    deskImagesArr = document.querySelectorAll('.element-cell > .image');
+    if (deskImagesArr.length === 9) {
+        for (let i = 0; i <= deskImagesArr.length-1; i++) {
+            if (+deskImagesArr[i].id === i) {
                 n++
             }
         }
     }
     if (n === 9) {
+        let deskCellsArr = document.querySelectorAll('.element-cell');
+        for (let elem of deskCellsArr) {
+            elem.classList.add('element-cell-frameless');
+        }
         alert('YOU ARE THE WINNER');
     }
 }
