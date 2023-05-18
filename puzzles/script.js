@@ -22,17 +22,22 @@ container.onpointerdown = function (event) {
             target.hidden = true;
             const endPoint = document.elementFromPoint(event.clientX, event.clientY);
 
-            if (endPoint.classList.contains('element-cell')) {
+            if (startPoint.classList.contains('image-part') && endPoint.classList.contains('element-cell')) {
                 target.style.width = '150px';
                 target.style.height = '150px';
                 placeImage(target, endPoint);
                 startPoint.remove();
-            } else if (endPoint.classList.contains('image') && startPoint.classList.contains('element-cell')) {
+
+            } else if (startPoint.classList.contains('element-cell') && endPoint.parentNode.classList.contains('image-part')) {
                 const placeForImage = document.createElement('div');
                 placeForImage.classList.add('image-part');
                 placeImage(target, placeForImage);
                 const parentElement = endPoint.parentNode;
                 parentElement.after(placeForImage);
+
+            } else if (startPoint.classList.contains('element-cell') && endPoint.classList.contains('element-cell')) {
+                placeImage(target, endPoint);
+
             } else {
                 placeImage(target, startPoint);
             }
