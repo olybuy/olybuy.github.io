@@ -87,3 +87,12 @@ function checkElementPlace() {
         alert('YOU ARE THE WINNER');
     }
 }
+
+function createDesk(size) {
+    const desk = document.querySelector('desk');
+    const elementCell = document.createElement('div');
+    elementCell.classList.add('element-cell');
+    for (let i = 0; i <=size*size; i++) {
+        desk.append(elementCell);
+    }
+}
