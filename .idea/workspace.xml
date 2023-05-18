@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/puzzles/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/img/background_img.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/puzzles/img" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/housevop" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
-      <recent name="$PROJECT_DIR$/sedona_1/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/puzzles" />
@@ -107,14 +109,7 @@
       <workItem from="1673425360533" duration="42440000" />
       <workItem from="1675159369082" duration="29306000" />
       <workItem from="1678863076553" duration="1524000" />
-      <workItem from="1684315186610" duration="22589000" />
-    </task>
-    <task id="LOCAL-00080" summary="Add script">
-      <created>1669719263756</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1669719263756</updated>
+      <workItem from="1684315186610" duration="23707000" />
     </task>
     <task id="LOCAL-00081" summary="Add script">
       <created>1669719557267</created>
@@ -452,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684413735177</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Remove borders">
+      <created>1684414247625</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1684414247625</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +473,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add fonts" />
     <MESSAGE value="Add mobile" />
     <MESSAGE value="Add script" />
     <MESSAGE value="Add favicon" />
@@ -496,7 +497,8 @@
     <MESSAGE value="Fix moving elements on desk" />
     <MESSAGE value="Add check winner" />
     <MESSAGE value="Fix check timeout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix check timeout" />
+    <MESSAGE value="Remove borders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove borders" />
   </component>
   <component name="WindowStateProjectService">
     <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678866222584">
@@ -575,10 +577,10 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1342" height="249" key="GridCell.Tab.3.right/0.25.1440.791@0.25.1440.791" timestamp="1676114613071" />
-    <state x="293" y="144" key="Vcs.Push.Dialog.v2" timestamp="1684413736729">
+    <state x="293" y="144" key="Vcs.Push.Dialog.v2" timestamp="1684414249102">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="293" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1684413736729" />
+    <state x="293" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1684414249102" />
     <state x="383" y="146" width="597" height="548" key="find.popup" timestamp="1684341683682">
       <screen x="0" y="25" width="1440" height="791" />
     </state>

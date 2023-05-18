@@ -1,3 +1,19 @@
+html {
+    height: 100%;
+    background-image: url("img/background_img.jpeg");
+    background-size: contain;
+    background-position: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
 .container {
     display: flex;
     gap: 50px;
@@ -28,12 +44,12 @@
 
 .elements {
     display: flex;
+    flex-direction: column;
     gap: 5px;
     flex-wrap: wrap;
-    width: 86px;
+    width: 177px;
     height: 450px;
-    border: 1px solid #000;
-    overflow: scroll;
+    outline: 1px solid #000;
 }
 
 .element-cell {
