@@ -3,6 +3,7 @@ html {
     background-image: url("img/background_img.jpeg");
     background-size: contain;
     background-position: center;
+    overflow: hidden;
 }
 
 .page {
