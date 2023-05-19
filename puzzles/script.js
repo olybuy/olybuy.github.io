@@ -48,7 +48,7 @@ container.onpointerdown = function (event) {
                 placeImage(target, startPoint);
             }
 
-            setTimeout(checkElementPlace, 300);
+            setTimeout(checkElementPlace, 100);
         };
 
         function moveAt(pageX, pageY) {
@@ -80,11 +80,19 @@ function checkElementPlace() {
         }
     }
     if (n === 9) {
-        let deskCellsArr = document.querySelectorAll('.element-cell');
+        const deskCellsArr = document.querySelectorAll('.element-cell');
         for (let elem of deskCellsArr) {
             elem.classList.add('element-cell-frameless');
         }
-        alert('YOU ARE THE WINNER');
+        const pikachuDiv = document.querySelector('.pikachu');
+        pikachuDiv.classList.add('pikachu-up');
+    }
+}
+
+onclick = function (event) {
+    const target = event.target;
+    if (target.classList.contains('pikachu-img')) {
+        target.parentNode.classList.remove('pikachu-up');
     }
 }
 
