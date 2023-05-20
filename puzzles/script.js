@@ -125,3 +125,14 @@ function createElements(size, set) {
         imagePartArr[i].append(imagePart);
     }
 }
+
+// Отключение контекстного меню в браузере
+
+document.oncontextmenu = function (event) {
+    const target = event.target;
+    if (target.tagName === 'img') {
+        return false;
+    }
+}
+
+document.addEventListener('contextmenu', event => event.preventDefault());
