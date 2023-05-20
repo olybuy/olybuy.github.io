@@ -128,19 +128,17 @@ function createElements(size, set) {
 
 // Отключение контекстного меню в браузере
 
-document.oncontextmenu = function (event) {
-    const target = event.target;
-    if (target.tagName === 'img') {
-        return false;
-    }
-}
+// document.oncontextmenu = function (event) {
+//     const target = event.target;
+//     if (target.tagName === 'img') {
+//         return false;
+//     }
+// }
+// document.addEventListener('contextmenu', event => event.preventDefault());
 
-document.addEventListener('contextmenu', event => event.preventDefault());
-window.addEventListener("touchstart", touchHandler, { passive: false, capture: false, once: false });
-function touchHandler(event) {
-    if (event.touches.length > 1) {
-        event.preventDefault();
-        event.stopImmediatePropagation();
-        return false;
-    }
-}
+document.oncontextmenu = function(event) {
+    event.preventDefault();
+    event.stopPropagation(); // not necessary in my case, could leave in case stopImmediateProp isn't available?
+    event.stopImmediatePropagation();
+    return false;
+};
