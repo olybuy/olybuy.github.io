@@ -136,3 +136,11 @@ document.oncontextmenu = function (event) {
 }
 
 document.addEventListener('contextmenu', event => event.preventDefault());
+window.addEventListener("touchstart", touchHandler, { passive: false, capture: false, once: false });
+function touchHandler(event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        return false;
+    }
+}
