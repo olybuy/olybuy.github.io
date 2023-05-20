@@ -31,16 +31,16 @@ html {
     z-index: 1;
 }
 
-.desk::before {
+.background {
     position: absolute;
     top:0;
     width: 450px;
     height: 450px;
-    background-image: url("img/moana_set/moana_450.jpg");
     background-size: contain;
     background-position: center;
     opacity: 0.3;
     content: '';
+    z-index: 100;
 }
 
 .elements {

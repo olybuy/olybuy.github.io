@@ -1,3 +1,6 @@
+createDesk(9, 'superwings');
+createElements(9, 'superwings_set');
+
 container.onpointerdown = function (event) {
     const target = event.target;
     target.hidden = true;
@@ -68,12 +71,13 @@ container.onpointerdown = function (event) {
     }
 }
 
+// Проверка правильности
 function checkElementPlace() {
     let deskImagesArr = [];
     let n = 0;
     deskImagesArr = document.querySelectorAll('.element-cell > .image');
     if (deskImagesArr.length === 9) {
-        for (let i = 0; i <= deskImagesArr.length-1; i++) {
+        for (let i = 0; i < deskImagesArr.length; i++) {
             if (+deskImagesArr[i].id === i) {
                 n++
             }
@@ -89,6 +93,7 @@ function checkElementPlace() {
     }
 }
 
+// Нажатие на Пикачу
 onclick = function (event) {
     const target = event.target;
     if (target.classList.contains('pikachu-img')) {
@@ -96,11 +101,27 @@ onclick = function (event) {
     }
 }
 
-function createDesk(size) {
-    const desk = document.querySelector('desk');
-    const elementCell = document.createElement('div');
-    elementCell.classList.add('element-cell');
-    for (let i = 0; i <=size*size; i++) {
-        desk.append(elementCell);
+// Создание поля
+function createDesk(size, bgName) {
+    const desk = document.querySelector('.desk');
+    desk.innerHTML = '<div class="element-cell"></div>'.repeat(size);
+    const bg = document.createElement('div');
+    bg.classList.add('background');
+    bg.style.backgroundImage = `url(img/${bgName}_set/${bgName}_450.jpg)`;
+    desk.prepend(bg);
+}
+
+// Создание элементов
+function createElements(size, set) {
+    const elements = document.querySelector('.elements');
+    elements.innerHTML = '<div class="image-part"></div>'.repeat(size);
+
+    const imagePartArr = document.querySelectorAll('.image-part');
+    for (let i = 0; i < imagePartArr.length; i++) {
+        const imagePart = document.createElement('img');
+        imagePart.id = String(i);
+        imagePart.classList.add('image');
+        imagePart.src = `img/${set}/cut_images/image_part_00${i + 1}.jpg`;
+        imagePartArr[i].append(imagePart);
     }
 }
