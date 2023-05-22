@@ -1,5 +1,8 @@
-createDesk(9, 'superwings');
-createElements(9, 'superwings_set');
+const actualSet = 'superwings';
+const actualSize  = 9;
+
+createDesk(actualSize, actualSet);
+createElements(actualSize, actualSet);
 
 container.onpointerdown = function (event) {
     const target = event.target;
@@ -72,6 +75,7 @@ container.onpointerdown = function (event) {
 }
 
 // Проверка правильности
+
 function checkElementPlace() {
     let deskImagesArr = [];
     let n = 0;
@@ -90,10 +94,15 @@ function checkElementPlace() {
         }
         const pikachuDiv = document.querySelector('.pikachu');
         pikachuDiv.classList.add('pikachu-up');
+        const desk = document.querySelector('.desk');
+        const reloadDiv = document.createElement('div');
+        reloadDiv.classList.add('reload');
+        desk.append(reloadDiv);
     }
 }
 
 // Нажатие на Пикачу
+
 onclick = function (event) {
     const target = event.target;
     if (target.classList.contains('pikachu-img')) {
@@ -102,6 +111,7 @@ onclick = function (event) {
 }
 
 // Создание поля
+
 function createDesk(size, bgName) {
     const desk = document.querySelector('.desk');
     desk.innerHTML = '<div class="element-cell"></div>'.repeat(size);
@@ -112,7 +122,8 @@ function createDesk(size, bgName) {
 }
 
 // Создание элементов
-function createElements(size, set) {
+
+function createElements(size, setName) {
     const elements = document.querySelector('.elements');
     elements.innerHTML = '<div class="image-part"></div>'.repeat(size);
 
@@ -121,8 +132,18 @@ function createElements(size, set) {
         const imagePart = document.createElement('img');
         imagePart.id = String(i);
         imagePart.classList.add('image');
-        imagePart.src = `img/${set}/cut_images/image_part_00${i + 1}.jpg`;
+        imagePart.src = `img/${setName}_set/cut_images/image_part_00${i + 1}.jpg`;
         imagePartArr[i].append(imagePart);
+    }
+}
+
+// Перезагрузка
+
+container.onclick = function (event) {
+    const target = event.target;
+    if (target.classList.contains('reload')) {
+        createDesk(actualSize, actualSet);
+        createElements(actualSize, actualSet);
     }
 }
 
@@ -132,16 +153,9 @@ document.oncontextmenu = function (event) {
     const target = event.target;
     if (target.tagName === 'img') {
         event.preventDefault();
-        event.stopPropagation(); // not necessary in my case, could leave in case stopImmediateProp isn't available?
+        event.stopPropagation();
         event.stopImmediatePropagation();
         return false;
     }
 }
 document.addEventListener('contextmenu', event => event.preventDefault());
-
-// document.oncontextmenu = function(event) {
-//     event.preventDefault();
-//     event.stopPropagation(); // not necessary in my case, could leave in case stopImmediateProp isn't available?
-//     event.stopImmediatePropagation();
-//     return false;
-// };

@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="" />
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/puzzles/img/reload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,14 +110,7 @@
       <workItem from="1673425360533" duration="42440000" />
       <workItem from="1675159369082" duration="29306000" />
       <workItem from="1678863076553" duration="1524000" />
-      <workItem from="1684315186610" duration="34617000" />
-    </task>
-    <task id="LOCAL-00091" summary="Add favicon">
-      <created>1669724628685</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1669724628685</updated>
+      <workItem from="1684315186610" duration="36243000" />
     </task>
     <task id="LOCAL-00092" summary="Fix main">
       <created>1669725366216</created>
@@ -449,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684756625605</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Fix right-click menu">
+      <created>1684756772345</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1684756772345</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,10 +578,10 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1342" height="249" key="GridCell.Tab.3.right/0.25.1440.791@0.25.1440.791" timestamp="1676114613071" />
-    <state x="293" y="144" key="Vcs.Push.Dialog.v2" timestamp="1684756627059">
+    <state x="293" y="144" key="Vcs.Push.Dialog.v2" timestamp="1684756773829">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="293" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1684756627059" />
+    <state x="293" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1684756773829" />
     <state x="383" y="146" width="597" height="548" key="find.popup" timestamp="1684341683682">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
