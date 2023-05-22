@@ -128,17 +128,20 @@ function createElements(size, set) {
 
 // Отключение контекстного меню в браузере
 
-// document.oncontextmenu = function (event) {
-//     const target = event.target;
-//     if (target.tagName === 'img') {
-//         return false;
-//     }
-// }
-// document.addEventListener('contextmenu', event => event.preventDefault());
+document.oncontextmenu = function (event) {
+    const target = event.target;
+    if (target.tagName === 'img') {
+        event.preventDefault();
+        event.stopPropagation(); // not necessary in my case, could leave in case stopImmediateProp isn't available?
+        event.stopImmediatePropagation();
+        return false;
+    }
+}
+document.addEventListener('contextmenu', event => event.preventDefault());
 
-document.oncontextmenu = function(event) {
-    event.preventDefault();
-    event.stopPropagation(); // not necessary in my case, could leave in case stopImmediateProp isn't available?
-    event.stopImmediatePropagation();
-    return false;
-};
+// document.oncontextmenu = function(event) {
+//     event.preventDefault();
+//     event.stopPropagation(); // not necessary in my case, could leave in case stopImmediateProp isn't available?
+//     event.stopImmediatePropagation();
+//     return false;
+// };
