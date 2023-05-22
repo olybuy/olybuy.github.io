@@ -4,6 +4,7 @@ html {
     background-size: contain;
     background-position: center;
     overflow: hidden;
+    user-select: none;
 }
 
 .page {
