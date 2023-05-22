@@ -27,7 +27,7 @@ html {
     grid-template-rows: repeat(3, 150px);
     width: 450px;
     height: 450px;
-    border: 1px solid #ff0000;
+    border: 1px solid #000080;
     z-index: 1;
 }
 
@@ -50,11 +50,11 @@ html {
     flex-wrap: wrap;
     width: 177px;
     height: 450px;
-    outline: 1px solid #000;
+    outline: 1px solid #000080;
 }
 
 .element-cell {
-    border: 1px solid #ff0000;
+    border: 1px dotted #000080;
     z-index: 100;
 }
 
