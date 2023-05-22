@@ -1,10 +1,7 @@
 html {
     height: 100%;
-    /*background-image: url("img/bg_blue.jpg");*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    /*overflow: hidden;*/
-    background-color: #FFE4C4;
+    overflow: hidden;
+    background-color: #FFF0F5;
     user-select: none;
 }
 
