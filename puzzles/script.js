@@ -97,13 +97,14 @@ function checkElementPlace() {
         const desk = document.querySelector('.desk');
         const reloadDiv = document.createElement('div');
         reloadDiv.classList.add('reload');
+        reloadDiv.id = 'reload';
         desk.append(reloadDiv);
     }
 }
 
 // Нажатие на Пикачу
 
-onclick = function (event) {
+pikachu.onclick = function (event) {
     const target = event.target;
     if (target.classList.contains('pikachu-img')) {
         target.parentNode.classList.remove('pikachu-up');
@@ -139,11 +140,29 @@ function createElements(size, setName) {
 
 // Перезагрузка
 
-container.onclick = function (event) {
+onclick = function (event) {
     const target = event.target;
+    console.log(target);
     if (target.classList.contains('reload')) {
         createDesk(actualSize, actualSet);
         createElements(actualSize, actualSet);
+    }
+}
+
+// Выбор картинки
+
+choiceButton.onclick = function (event) {
+    const choiceFrame = document.querySelector('.choice-frame');
+    choiceFrame.classList.remove('none-display');
+}
+
+container.onclick = function (event) {
+    const target = event.target;
+    if (target.classList.contains('set-image')) {
+        createDesk(actualSize, target.id);
+        createElements(actualSize, target.id);
+        const choiceFrame = document.querySelector('.choice-frame');
+        choiceFrame.classList.add('none-display');
     }
 }
 

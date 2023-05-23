@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-<!--        <meta name="viewport" content="width=device-width,initial-scale=1">-->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Title</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -10,10 +10,18 @@
     <div class="container" id="container">
         <div class="desk"></div>
         <div class="elements"></div>
+        <div class="choice-frame none-display">
+            <div class="set">
+                <img id="moana" class="set-image" src="img/moana_set/moana_450.jpg" width="200" height="200">
+            </div>
+            <div class="set">
+                <img id="superwings" class="set-image" src="img/superwings_set/superwings_450.jpg" width="200" height="200">
+            </div>
+        </div>
     </div>
-
+    <button id="choiceButton" class="choice-button">Выбрать сет</button>
     <div class="pikachu">
-        <img class="pikachu-img" src="img/pikachu.gif" width="350" height="350">
+        <img id="pikachu" class="pikachu-img" src="img/pikachu.gif" width="350" height="350">
     </div>
 
     <script src="script.js"></script>
