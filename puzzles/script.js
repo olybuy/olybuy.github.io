@@ -28,6 +28,8 @@ container.onpointerdown = function (event) {
             target.hidden = true;
             const endPoint = document.elementFromPoint(event.clientX, event.clientY);
 
+            checkElement(startPoint, endPoint);
+
             if (startPoint.classList.contains('image-part') && endPoint.classList.contains('element-cell')) {
                 target.style.width = '150px';
                 target.style.height = '150px';
@@ -82,10 +84,11 @@ function checkElementPlace() {
     deskImagesArr = document.querySelectorAll('.element-cell > .image');
     if (deskImagesArr.length === 9) {
         for (let i = 0; i < deskImagesArr.length; i++) {
-            if (+deskImagesArr[i].id === i) {
+            if (parseID(deskImagesArr[i].id) === parseID(deskImagesArr[i].parentNode.id)) {
                 n++
             }
         }
+
     }
     if (n === 9) {
         const deskCellsArr = document.querySelectorAll('.element-cell');
@@ -105,7 +108,8 @@ function checkElementPlace() {
 // Проверка по элементу
 
 function checkElement(startPoint, endPoint) {
-
+    // console.log(startPoint);
+    // console.log(endPoint);
 }
 
 // Нажатие на Пикачу
@@ -145,7 +149,7 @@ function createElements(size, setName) {
     const imagePartArr = document.querySelectorAll('.image-part');
     for (let i = 0; i < imagePartArr.length; i++) {
         const imagePart = document.createElement('img');
-        imagePart.id = String(i);
+        imagePart.id = 'img-' + i;
         imagePart.classList.add('image');
         imagePart.src = `img/${setName}_set/cut_images/image_part_00${i + 1}.jpg`;
         imagePartArr[i].append(imagePart);
@@ -156,7 +160,6 @@ function createElements(size, setName) {
 
 onclick = function (event) {
     const target = event.target;
-    console.log(target);
     if (target.classList.contains('reload')) {
         createDesk(actualSize, actualSet);
         createElements(actualSize, actualSet);
@@ -179,6 +182,12 @@ container.onclick = function (event) {
         const choiceFrame = document.querySelector('.choice-frame');
         choiceFrame.classList.add('none-display');
     }
+}
+
+// Парсинг ID
+
+function parseID(id) {
+    return id.slice(-1);
 }
 
 // Отключение контекстного меню в браузере
