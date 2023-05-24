@@ -127,7 +127,7 @@ html {
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     width: 700px;
     height: 460px;
