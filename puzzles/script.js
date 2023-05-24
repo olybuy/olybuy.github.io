@@ -1,5 +1,5 @@
-const actualSet = 'superwings';
-const actualSize  = 9;
+let actualSet = 'superwings';
+let actualSize  = 9;
 
 createDesk(actualSize, actualSet);
 createElements(actualSize, actualSet);
@@ -102,6 +102,12 @@ function checkElementPlace() {
     }
 }
 
+// Проверка по элементу
+
+function checkElement(startPoint, endPoint) {
+
+}
+
 // Нажатие на Пикачу
 
 pikachu.onclick = function (event) {
@@ -115,7 +121,15 @@ pikachu.onclick = function (event) {
 
 function createDesk(size, bgName) {
     const desk = document.querySelector('.desk');
-    desk.innerHTML = '<div class="element-cell"></div>'.repeat(size);
+    desk.innerHTML = '';
+
+    for (let i = 0; i <= size; i++) {
+        const cellDiv = document.createElement('div');
+        cellDiv.classList.add('element-cell');
+        cellDiv.id = 'cell-' + i;
+        desk.append(cellDiv);
+    }
+
     const bg = document.createElement('div');
     bg.classList.add('background');
     bg.style.backgroundImage = `url(img/${bgName}_set/${bgName}_450.jpg)`;
@@ -161,6 +175,7 @@ container.onclick = function (event) {
     if (target.classList.contains('set-image')) {
         createDesk(actualSize, target.id);
         createElements(actualSize, target.id);
+        actualSet = target.id;
         const choiceFrame = document.querySelector('.choice-frame');
         choiceFrame.classList.add('none-display');
     }

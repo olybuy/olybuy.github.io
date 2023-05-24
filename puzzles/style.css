@@ -115,10 +115,14 @@ html {
 }
 
 .choice-button {
-    width: 50%;
-    height: 40px;
     margin: 0 auto;
     text-transform: uppercase;
+    background-color: #000080;
+    color: #ffffff;
+    border: none;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    font-size: 20px;
 }
 
 .choice-frame {
