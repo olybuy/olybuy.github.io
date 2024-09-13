@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<style>
+    .main-table {
+        border-collapse: collapse;
+        background: linear-gradient(to top, lightgray, white);
+        float: left;
+        margin-right: 20px;
+    }
+
+    .main-table td {
+        border: 1px solid gray;
+        width: 90px;
+        height: 90px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .active {
+        opacity: 0.7;
+    }
+
+    .small {
+        opacity: 0.2;
+    }
+
+    .red {
+        background: url("img/ball-red.png") no-repeat center center;
+        background-size: 80% 80%;
+    }
+
+    .blue {
+        background: url("img/ball-blue.png") no-repeat center center;
+        background-size: 80% 80%;
+    }
+
+    .green {
+        background: url("img/ball-green.png") no-repeat center center;
+        background-size: 80% 80%;
+    }
+
+    .orange {
+        background: url("img/ball-orange.png") no-repeat center center;
+        background-size: 80% 80%;
+    }
+
+    .counter {
+        width: 100px;
+        height: 40px;
+        border: 1px solid gray;
+        display: block;
+        float: left;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .scores {
+        position: absolute;
+        text-transform: uppercase;
+        top: 0;
+        background: #fff;
+        padding: 2px;
+    }
+</style>
+
+    <table class="main-table" id="table">
+        <tr>
+            <td class="red colored"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="blue colored"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+<span class="scores">Scores</span>
+<div class="counter">0</div>
+
+
+
+<script>
+    let color;
+    let tdColors = ['red', 'blue', 'orange'];
+    let arrForClear = []; // массив для очистки
+
+    doPredictLines();
+
+    table.onclick = function (event) {
+        let target = event.target;
+        if (target.classList.contains('colored')) {
+            if (document.querySelector('.active') !== null) {
+                let active = document.querySelector('.active');
+                active.classList.remove('active');
+                target.classList.add('active');
+            }
+            target.classList.toggle('active');
+            for (let elem of target.classList) {
+                if (elem !== 'colored' && elem !== 'active') {
+                    color = elem;
+                }
+            }
+        } else {
+            if (document.querySelector('.active') !== null) { // если есть активный элемент
+                let isSmall = isTargetNotEmpty(target);
+
+                let mainArr = getMainArr();
+                checkPath(target, mainArr); // true/false
+
+                moveLines(target, color);
+
+                pushPredictLines();
+
+                deleteLines(mainArr);
+
+                doPredictLines()
+
+                if (isSmall) {
+                    let emptyTdArr = getEmptyTdArr();
+                    doRandomLines(emptyTdArr, tdColors, 'colored');
+                }
+            }
+        }
+    }
+
+    function isTargetNotEmpty(target) {
+        return target.classList.contains('small');
+    }
+
+    function getMainArr() {
+        return table.querySelectorAll('td');
+    }
+
+    function moveLines(target, color) {
+        target.className = '';
+        target.classList.add(color, 'colored');
+        document.querySelector('.active').className = '';
+    }
+
+    function pushPredictLines() {
+        if (document.querySelector('.small') !== null) {
+            let elements = document.querySelectorAll('.small');
+            for (let elem of elements) {
+                elem.classList.remove('small');
+                elem.classList.add('colored');
+            }
+        }
+    }
+
+    function getEmptyTdArr() {
+        return table.querySelectorAll('td:not(.colored)');
+    }
+
+    function doPredictLines() {
+        let emptyTdArr = getEmptyTdArr();
+        doRandomLines(emptyTdArr, tdColors, 'small');
+        doRandomLines(emptyTdArr, tdColors, 'small');
+    }
+
+    function doRandomLines(array, colors, style) {
+        let randomNum = Math.floor(Math.random() * array.length); // место для появления
+        let randomColor = Math.floor(Math.random() * colors.length); // цвет для появления
+        array[randomNum].classList.add(colors[randomColor], style);
+    }
+
+    function deleteLines(array) {
+        let objArr = getObjArr(array);
+        let rowArr = getRowArr(objArr);
+        let columnArr = getColumnArr(objArr);
+        let diagonalArr = getDiagonalArr(objArr);
+
+        checkLines(rowArr);
+        checkLines(columnArr);
+        checkLines(diagonalArr);
+
+        counter(arrForClear);
+
+        for (let elem of arrForClear) {
+            elem.td.className = '';
+        }
+        arrForClear = [];
+    }
+
+    function counter(array) {
+        if (array.length >= 3) {
+            let currentCounter = +document.querySelector('.counter').innerHTML;
+            currentCounter += array.length;
+            document.querySelector('.counter').innerHTML = currentCounter;
+        }
+    }
+
+    function getObjArr(array) {
+        let objArr = []; // массив объектов
+        for (let i = 0; i < array.length; i++) {
+            let index = {
+                colNum: array[i].cellIndex,
+                class: array[i].className,
+                td: array[i]
+            }
+
+            if (i <= 5) {
+                index.rowNum = 0;
+            } else if (i > 5 && i <= 11) {
+                index.rowNum = 1;
+            } else if (i > 11 && i <= 17) {
+                index.rowNum = 2;
+            } else if (i > 17 && i <= 23) {
+                index.rowNum = 3;
+            } else if (i > 23 && i <= 29) {
+                index.rowNum = 4;
+            } else {
+                index.rowNum = 5;
+            }
+            objArr.push(index);
+        }
+        return objArr;
+    }
+
+    function getRowArr(array) {
+        let rowArr = []; // массив строк
+        for (let i = 0; i < array.length; i += 6) {
+            let rowTdArr = array.slice(i, i + 6); // массив ячеек в строке
+            rowArr.push(rowTdArr); // добавляем строку в массив
+        }
+        return rowArr;
+    }
+
+    function getColumnArr(array) {
+        let columnArr = []; // массив столбцов
+        let colTdArr = [];
+        for (let i = 0; i < 6; i++) {
+            for (let elem of array) {
+                if (elem.colNum === i) {
+                    colTdArr.push(elem);
+                }
+            }
+            columnArr.push(colTdArr);
+            colTdArr = [];
+        }
+        return columnArr;
+    }
+
+    function getDiagonalArr(array) {
+        let diagonalArr = [];
+        let diagonalRow = [];
+
+        for (let n = -3; n <= 6; n++) {
+            for (let i = 0; i < array.length; i++) {
+                if (array[i].colNum - array[i].rowNum === n) {
+                    diagonalRow.push(array[i]);
+                }
+            }
+            if (diagonalRow.length >= 3) {
+                diagonalArr.push(diagonalRow);
+            }
+            diagonalRow = [];
+        }
+        for (let n = 2; n <= 8; n++) {
+            for (let i = 0; i < array.length; i++) {
+                if (array[i].colNum + array[i].rowNum === n) {
+                    diagonalRow.push(array[i]);
+                }
+            }
+            if (diagonalRow.length >= 3) {
+                diagonalArr.push(diagonalRow);
+            }
+            diagonalRow = [];
+        }
+        return diagonalArr;
+    }
+
+    function checkLines(rowArray) {
+        let lineArray = []; // массив под линию
+        for (let row of rowArray) { // row - коллекция ячеек из строки
+            for (let i = 0; i < row.length; i++) {
+                if (row[i].class !== '') { // находим цветную ячейку
+                    let tdColor = row[i].class; // запоминаем ее цвет
+                    lineArray.push(row[i]); // добавляем цветную ячейку в массив
+                    for (let j = 1; j < row.length - i; j++) {
+                        if (row[i + j].class === tdColor) { // пока следующая от цветной ячейки совпадает с ней
+                            lineArray.push(row[i + j]); // добавляем эту ячейку в массив
+                        } else if (lineArray.length < 3) { // если в массиве меньше 3 элементов
+                            lineArray = []; // обнуляем массив
+                        }
+                    }
+                }
+                if (lineArray.length >= 3) {
+                    arrForClear = arrForClear.concat(lineArray);
+                    i = i + arrForClear.length;
+                    lineArray = []; // обнуляем массив
+                } else {
+                    lineArray = [];
+                }
+            }
+        }
+    }
+
+    function checkPath(target, mainArr) {
+        let startPoint = document.querySelector('.active');
+        let endPoint = target;
+        startPoint.classList.add('start');
+        endPoint.classList.add('end');
+        let currentArr = getObjArr(mainArr);
+        let startIndex;
+        let endIndex;
+        for (let i = 0; i < currentArr.length; i++) {
+            if (currentArr[i].class.includes('start')) {
+                currentArr[i].startPoint = true;
+                startIndex = i;
+            }
+            if (currentArr[i].class.includes('end')) {
+                currentArr[i].endPoint = true;
+            }
+        }
+        let startElem = currentArr.find(e => e.startPoint === true);
+        for (let i = startIndex; i < currentArr.length - i; i++) {
+
+        }
+    }
+
+  /*  function test() {
+        let arr = generateTestData('rrrbgb');
+        checkLines(arr);
+        console.log('result:', arrForClear);
+    }
+    function generateTestData(row) {
+        return [[
+            {
+                colNum: 0,
+                class: row[0],
+                td: 0
+            },
+            {
+                colNum: 1,
+                class: row[1],
+                td: 0
+            },
+            {
+                colNum: 2,
+                class: row[2],
+                td: 0
+            },
+            {
+                colNum: 3,
+                class: row[3],
+                td: 0
+            },
+            {
+                colNum: 4,
+                class: row[4],
+                td: 0
+            },
+            {
+                colNum: 5,
+                class: row[5],
+                td: 0
+            }
+        ]];
+    }
+    test();*/
+
+</script>
+
+</body>
+</html>
