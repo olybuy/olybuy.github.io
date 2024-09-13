@@ -114,6 +114,10 @@ html {
     background-image: url("img/bear.svg");
 }
 
+.button-puzzles {
+    background-image: url("img/puzzle-2.svg");
+}
+
 .button-housevop {
     background-image: url("img/housevop.svg");
     background-size: 80%;
