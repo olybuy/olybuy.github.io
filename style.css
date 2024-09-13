@@ -116,6 +116,7 @@ html {
 
 .button-puzzles {
     background-image: url("img/puzzles-img.svg");
+    background-size: 80%;
 }
 
 .button-housevop {
