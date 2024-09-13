@@ -117,12 +117,13 @@ html {
 .choice-button {
     margin: 0 auto;
     text-transform: uppercase;
-    background-color: #000080;
+    background-color: #78023F;
     color: #ffffff;
     border: none;
     padding: 20px 60px;
     box-sizing: border-box;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 .choice-frame {
@@ -135,8 +136,19 @@ html {
     gap: 20px;
     width: 700px;
     height: 460px;
-    background-color: #ffffff;
+    background-color: #FFF0F5;
     z-index: 400;
+}
+
+.choice-frame:before {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border: 1px solid #000;
+    content: "X";
+    z-index: 1000;
 }
 
 .set {

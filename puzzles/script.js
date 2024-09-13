@@ -28,13 +28,17 @@ container.onpointerdown = function (event) {
             target.hidden = true;
             const endPoint = document.elementFromPoint(event.clientX, event.clientY);
 
-            checkElement(startPoint, endPoint);
+            console.log(checkElement(endPoint, target));
 
             if (startPoint.classList.contains('image-part') && endPoint.classList.contains('element-cell')) {
                 target.style.width = '150px';
                 target.style.height = '150px';
-                placeImage(target, endPoint);
-                startPoint.remove();
+                if (checkElement(endPoint, target)) {
+                    placeImage(target, endPoint);
+                    startPoint.remove();
+                } else {
+                    placeImage(target, startPoint);
+                }
 
             } else if (startPoint.classList.contains('element-cell') && endPoint.parentNode.classList.contains('image-part')) {
                 const placeForImage = document.createElement('div');
@@ -44,7 +48,7 @@ container.onpointerdown = function (event) {
                 parentElement.after(placeForImage);
 
             } else if (startPoint.classList.contains('element-cell') && endPoint.classList.contains('element-cell')) {
-                placeImage(target, endPoint);
+                placeImage(target, startPoint);
 
             } else if(startPoint.classList.contains('element-cell') && endPoint.classList.contains('elements')) {
                 const placeForImage = document.createElement('div');
@@ -107,9 +111,13 @@ function checkElementPlace() {
 
 // Проверка по элементу
 
-function checkElement(startPoint, endPoint) {
-    // console.log(startPoint);
-    // console.log(endPoint);
+function checkElement(endPoint, target) {
+    if (parseID(endPoint.id) === parseID(target.id)) {
+        return true
+    }
+    else {
+        return false
+    }
 }
 
 // Нажатие на Пикачу
