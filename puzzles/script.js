@@ -181,6 +181,11 @@ choiceButton.onclick = function (event) {
     choiceFrame.classList.remove('none-display');
 }
 
+closeButton.onclick = function (event) {
+    const choiceFrame = document.querySelector('.choice-frame');
+    choiceFrame.classList.add('none-display');
+}
+
 container.onclick = function (event) {
     const target = event.target;
     if (target.classList.contains('set-image')) {

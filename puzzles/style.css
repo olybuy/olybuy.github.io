@@ -137,18 +137,18 @@ html {
     width: 700px;
     height: 460px;
     background-color: #FFF0F5;
+    padding: 0 0 0 20px;
+    overflow: scroll;
     z-index: 400;
 }
 
-.choice-frame:before {
+.close-button {
+    position: absolute;
     width: 20px;
     height: 20px;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    border: 1px solid #000;
-    content: "X";
-    z-index: 1000;
+    top: 0;
+    left: 0;
+    z-index: 600;
 }
 
 .set {
