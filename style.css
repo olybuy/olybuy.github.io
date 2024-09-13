@@ -95,7 +95,7 @@ html {
 }
 
 .projects__button {
-    background-color: #FFCA42;
+    background-color: #FFFFFF;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -125,6 +125,7 @@ html {
 }
 
 .button-pages {
+    background-color: #FFCA42;
     background-image: url("img/pages.svg");
 }
 
