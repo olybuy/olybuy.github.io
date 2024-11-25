@@ -11,16 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/puzzles/framework/desk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/framework/disableContextMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/framework/imageChoice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/framework/imageUpload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/framework/pikachu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/framework/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/framework/desk.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/desk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/framework/imageUpload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/framework/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,21 +127,7 @@
       <workItem from="1726237811246" duration="106000" />
       <workItem from="1726237984945" duration="5965000" />
       <workItem from="1726262144645" duration="480000" />
-      <workItem from="1732526544883" duration="11766000" />
-    </task>
-    <task id="LOCAL-00110" summary="Change structure">
-      <created>1671703477698</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1671703477698</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Slider">
-      <created>1673434734313</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1673434734313</updated>
+      <workItem from="1732526544883" duration="16324000" />
     </task>
     <task id="LOCAL-00112" summary="Touch">
       <created>1673447548981</created>
@@ -473,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726244950546</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="add gitignore file">
+      <created>1732540547328</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1732540547328</updated>
+    </task>
+    <task id="LOCAL-00160" summary="add framework structure">
+      <created>1732540593313</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1732540593313</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,8 +491,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix moving elements on desk" />
-    <MESSAGE value="Add check winner" />
     <MESSAGE value="Fix check timeout" />
     <MESSAGE value="Remove borders" />
     <MESSAGE value="Add decor" />
@@ -517,21 +514,23 @@
     <MESSAGE value="change button size" />
     <MESSAGE value="add new puzzles" />
     <MESSAGE value="add close button" />
-    <option name="LAST_COMMIT_MESSAGE" value="add close button" />
+    <MESSAGE value="add gitignore file" />
+    <MESSAGE value="add framework structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add framework structure" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1726240933917">
+    <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1732542260844">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1726240933917" />
+    <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1732542260844" />
     <state x="245" y="61" key="SettingsEditor" timestamp="1726237717148">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="245" y="61" key="SettingsEditor/0.25.1440.791@0.25.1440.791" timestamp="1726237717148" />
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1726244952332">
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1732540606443">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1726244952332" />
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1732540606443" />
     <state x="493" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1726238751315">
       <screen x="0" y="25" width="1440" height="791" />
     </state>

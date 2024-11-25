@@ -1,11 +1,13 @@
 const ContextMenu = require('./disableContextMenu');
 const ImageChoice = require('./imageChoice');
-const ImageUpload = require('./imageUpload');
 const Desk = require('./desk');
 const Pikachu = require('./pikachu');
+const Utils = require('./utils');
 
 let actualSet = 'superwings';
 let actualSize  = 9;
+
+ContextMenu.disableContextMenu();
 
 // Create default desk
 
@@ -98,7 +100,7 @@ function checkElementPlace() {
     deskImagesArr = document.querySelectorAll('.element-cell > .image');
     if (deskImagesArr.length === 9) {
         for (let i = 0; i < deskImagesArr.length; i++) {
-            if (parseID(deskImagesArr[i].id) === parseID(deskImagesArr[i].parentNode.id)) {
+            if (Utils.parseID(deskImagesArr[i].id) === Utils.parseID(deskImagesArr[i].parentNode.id)) {
                 n++
             }
         }
@@ -122,7 +124,7 @@ function checkElementPlace() {
 // Check by element
 
 function checkElement(endPoint, target) {
-    if (parseID(endPoint.id) === parseID(target.id)) {
+    if (Utils.parseID(endPoint.id) === Utils.parseID(target.id)) {
         return true
     }
     else {
@@ -144,13 +146,4 @@ ImageChoice.choiceButtonClick();
 ImageChoice.closeButtonClick();
 ImageChoice.chooseImage(actualSize, actualSet);
 
-// Parsing ID
 
-function parseID(id) {
-    return id.slice(-1);
-}
-
-// Image upload
-
-ImageUpload.uploadButtonClick();
-ImageUpload.closeButtonClick();

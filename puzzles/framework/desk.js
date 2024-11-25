@@ -1,9 +1,11 @@
+const Utils = require('./utils');
+
 class Desk {
     static createDesk(size, bgName) {
         const desk = document.querySelector('.desk');
         desk.innerHTML = '';
 
-        for (let i = 0; i <= size; i++) {
+        for (let i = 1; i <= size; i++) {
             const cellDiv = document.createElement('div');
             cellDiv.classList.add('element-cell');
             cellDiv.id = 'cell-' + i;
@@ -21,11 +23,16 @@ class Desk {
         elements.innerHTML = '<div class="image-part"></div>'.repeat(size);
 
         const imagePartArr = document.querySelectorAll('.image-part');
-        for (let i = 0; i < imagePartArr.length; i++) {
+
+        const arrLength = imagePartArr.length;
+        const indexesArr = Utils.createArr(arrLength);
+        const randomIndexesArr = Utils.shuffleArray(indexesArr);
+
+        for (let i = 0; i < randomIndexesArr.length; i++) {
             const imagePart = document.createElement('img');
-            imagePart.id = 'img-' + i;
+            imagePart.id = 'img-' + randomIndexesArr[i];
             imagePart.classList.add('image');
-            imagePart.src = `img/${setName}_set/cut_images/image_part_00${i + 1}.jpg`;
+            imagePart.src = `img/${setName}_set/cut_images/image_part_00${randomIndexesArr[i]}.jpg`;
             imagePartArr[i].append(imagePart);
         }
     }

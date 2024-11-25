@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/olybuy/olybuy.github.io#readme",
   "dependencies": {
-    "axios": "^1.7.7"
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "webpack": "^5.96.1",
