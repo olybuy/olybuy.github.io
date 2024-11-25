@@ -11,8 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/puzzles/framework/desk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/framework/disableContextMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/framework/imageChoice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/framework/imageUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/framework/pikachu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +47,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/puzzles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lines" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/puzzles/img/spidey_set" />
-      <recent name="$PROJECT_DIR$/puzzles/img" />
-      <recent name="$PROJECT_DIR$/puzzles/img/superwings_set" />
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/housevop" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lines" />
       <recent name="$PROJECT_DIR$/puzzles" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bear" />
-      <recent name="$PROJECT_DIR$/sedona_2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/puzzles/framework" />
+      <recent name="$PROJECT_DIR$/puzzles/img/pikachu_set" />
+      <recent name="$PROJECT_DIR$/puzzles/img/aladdin" />
+      <recent name="$PROJECT_DIR$/puzzles/img/elsa_set" />
+      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (3)">
@@ -107,77 +116,19 @@
       <workItem from="1673425360533" duration="42440000" />
       <workItem from="1675159369082" duration="29306000" />
       <workItem from="1678863076553" duration="1524000" />
-      <workItem from="1684315186610" duration="47376000" />
-    </task>
-    <task id="LOCAL-00100" summary="Housevop import">
-      <created>1670317969887</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1670317969887</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Housevop import">
-      <created>1670318227165</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1670318227165</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Housevop import">
-      <created>1670318327971</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1670318327971</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Small fixes">
-      <created>1670318488226</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1670318488226</updated>
-    </task>
-    <task id="LOCAL-00104" summary="Fixes">
-      <created>1670318767902</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1670318767902</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Fixes">
-      <created>1670318972862</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1670318972862</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Fixes">
-      <created>1670319174247</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1670319174247</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Fixes">
-      <created>1670320896687</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1670320896687</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Fixes">
-      <created>1670323469682</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1670323469682</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Map">
-      <created>1671038357058</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1671038357058</updated>
+      <workItem from="1684315186610" duration="49277000" />
+      <workItem from="1684920432570" duration="717000" />
+      <workItem from="1686921489935" duration="597000" />
+      <workItem from="1692095315917" duration="1295000" />
+      <workItem from="1700723469128" duration="2000000" />
+      <workItem from="1705062463232" duration="595000" />
+      <workItem from="1705128578867" duration="112000" />
+      <workItem from="1726236578788" duration="567000" />
+      <workItem from="1726237156582" duration="633000" />
+      <workItem from="1726237811246" duration="106000" />
+      <workItem from="1726237984945" duration="5965000" />
+      <workItem from="1726262144645" duration="480000" />
+      <workItem from="1732526544883" duration="11766000" />
     </task>
     <task id="LOCAL-00110" summary="Change structure">
       <created>1671703477698</created>
@@ -452,7 +403,77 @@
       <option name="project" value="LOCAL" />
       <updated>1684913022378</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="New compare function">
+      <created>1684918499416</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1684918499416</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Add lines">
+      <created>1726237843158</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1726237843159</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Add img to lines">
+      <created>1726238053682</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1726238053682</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Add puzzles to main page">
+      <created>1726240166503</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1726240166503</updated>
+    </task>
+    <task id="LOCAL-00153" summary="change image for puzzle button">
+      <created>1726240691300</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1726240691300</updated>
+    </task>
+    <task id="LOCAL-00154" summary="change image for puzzle button">
+      <created>1726240960571</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1726240960571</updated>
+    </task>
+    <task id="LOCAL-00155" summary="change button color">
+      <created>1726241123615</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1726241123615</updated>
+    </task>
+    <task id="LOCAL-00156" summary="change button size">
+      <created>1726241225736</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1726241225736</updated>
+    </task>
+    <task id="LOCAL-00157" summary="add new puzzles">
+      <created>1726244017964</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1726244017964</updated>
+    </task>
+    <task id="LOCAL-00158" summary="add close button">
+      <created>1726244950546</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1726244950546</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,15 +492,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Touch" />
-    <MESSAGE value="Fix slider" />
-    <MESSAGE value="Add Pages" />
-    <MESSAGE value="Optimize notes" />
-    <MESSAGE value="Add TG" />
-    <MESSAGE value="Add words" />
-    <MESSAGE value="Add puzzles" />
-    <MESSAGE value="Fix touch" />
-    <MESSAGE value="Fix return to elements" />
     <MESSAGE value="Fix moving elements on desk" />
     <MESSAGE value="Add check winner" />
     <MESSAGE value="Fix check timeout" />
@@ -496,96 +508,33 @@
     <MESSAGE value="Add image choice" />
     <MESSAGE value="Add spidey" />
     <MESSAGE value="Fixes in choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes in choice" />
+    <MESSAGE value="New compare function" />
+    <MESSAGE value="Add lines" />
+    <MESSAGE value="Add img to lines" />
+    <MESSAGE value="Add puzzles to main page" />
+    <MESSAGE value="change image for puzzle button" />
+    <MESSAGE value="change button color" />
+    <MESSAGE value="change button size" />
+    <MESSAGE value="add new puzzles" />
+    <MESSAGE value="add close button" />
+    <option name="LAST_COMMIT_MESSAGE" value="add close button" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678866222584">
+    <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1726240933917">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="167" y="79" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.791@0.25.1440.791" timestamp="1678866222584" />
-    <state x="851" y="230" key="#xdebugger.evaluate" timestamp="1676115043840">
+    <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1726240933917" />
+    <state x="245" y="61" key="SettingsEditor" timestamp="1726237717148">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="851" y="230" key="#xdebugger.evaluate/0.25.1440.791@0.25.1440.791" timestamp="1676115043840" />
-    <state x="490" y="203" key="FileChooserDialogImpl" timestamp="1676114398939">
+    <state x="245" y="61" key="SettingsEditor/0.25.1440.791@0.25.1440.791" timestamp="1726237717148" />
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1726244952332">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="490" y="203" key="FileChooserDialogImpl/0.25.1440.791@0.25.1440.791" timestamp="1676114398939" />
-    <state width="1342" height="291" key="GridCell.Tab.0.bottom" timestamp="1684413316982">
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1726244952332" />
+    <state x="493" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1726238751315">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state width="1342" height="291" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1684413316982" />
-    <state width="1342" height="291" key="GridCell.Tab.0.center" timestamp="1684413316980">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1684413316980" />
-    <state width="1342" height="291" key="GridCell.Tab.0.left" timestamp="1684413316979">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1684413316979" />
-    <state width="1342" height="291" key="GridCell.Tab.0.right" timestamp="1684413316981">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1684413316981" />
-    <state width="1342" height="291" key="GridCell.Tab.1.bottom" timestamp="1684413316985">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.1.bottom/0.25.1440.791@0.25.1440.791" timestamp="1684413316985" />
-    <state width="1342" height="291" key="GridCell.Tab.1.center" timestamp="1684413316983">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.1.center/0.25.1440.791@0.25.1440.791" timestamp="1684413316983" />
-    <state width="1342" height="291" key="GridCell.Tab.1.left" timestamp="1684413316982">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.1.left/0.25.1440.791@0.25.1440.791" timestamp="1684413316982" />
-    <state width="1342" height="291" key="GridCell.Tab.1.right" timestamp="1684413316984">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.1.right/0.25.1440.791@0.25.1440.791" timestamp="1684413316984" />
-    <state width="1342" height="291" key="GridCell.Tab.2.bottom" timestamp="1684413316987">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.2.bottom/0.25.1440.791@0.25.1440.791" timestamp="1684413316987" />
-    <state width="1342" height="291" key="GridCell.Tab.2.center" timestamp="1684413316986">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.2.center/0.25.1440.791@0.25.1440.791" timestamp="1684413316986" />
-    <state width="1342" height="291" key="GridCell.Tab.2.left" timestamp="1684413316985">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.2.left/0.25.1440.791@0.25.1440.791" timestamp="1684413316985" />
-    <state width="1342" height="291" key="GridCell.Tab.2.right" timestamp="1684413316986">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="291" key="GridCell.Tab.2.right/0.25.1440.791@0.25.1440.791" timestamp="1684413316986" />
-    <state width="1342" height="249" key="GridCell.Tab.3.bottom" timestamp="1676114613072">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="249" key="GridCell.Tab.3.bottom/0.25.1440.791@0.25.1440.791" timestamp="1676114613072" />
-    <state width="1342" height="249" key="GridCell.Tab.3.center" timestamp="1676114613071">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="249" key="GridCell.Tab.3.center/0.25.1440.791@0.25.1440.791" timestamp="1676114613071" />
-    <state width="1342" height="249" key="GridCell.Tab.3.left" timestamp="1676114613070">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="249" key="GridCell.Tab.3.left/0.25.1440.791@0.25.1440.791" timestamp="1676114613070" />
-    <state width="1342" height="249" key="GridCell.Tab.3.right" timestamp="1676114613071">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state width="1342" height="249" key="GridCell.Tab.3.right/0.25.1440.791@0.25.1440.791" timestamp="1676114613071" />
-    <state x="293" y="144" key="Vcs.Push.Dialog.v2" timestamp="1684913024328">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="293" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1684913024328" />
-    <state x="383" y="146" width="597" height="548" key="find.popup" timestamp="1684341683682">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="383" y="146" width="597" height="548" key="find.popup/0.25.1440.791@0.25.1440.791" timestamp="1684341683682" />
-    <state x="346" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1684486341259">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="346" y="140" width="670" height="676" key="search.everywhere.popup/0.25.1440.791@0.25.1440.791" timestamp="1684486341259" />
+    <state x="493" y="140" width="670" height="676" key="search.everywhere.popup/0.25.1440.791@0.25.1440.791" timestamp="1726238751315" />
   </component>
 </project>

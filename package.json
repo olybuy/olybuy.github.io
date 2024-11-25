@@ -1,0 +1,26 @@
+{
+  "name": "olybuy.github.io",
+  "version": "1.0.0",
+  "description": "My own website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olybuy/olybuy.github.io.git"
+  },
+  "author": "Marina Kramskaia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olybuy/olybuy.github.io/issues"
+  },
+  "homepage": "https://github.com/olybuy/olybuy.github.io#readme",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

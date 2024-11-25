@@ -1,8 +1,20 @@
+const ContextMenu = require('./disableContextMenu');
+const ImageChoice = require('./imageChoice');
+const ImageUpload = require('./imageUpload');
+const Desk = require('./desk');
+const Pikachu = require('./pikachu');
+
 let actualSet = 'superwings';
 let actualSize  = 9;
 
-createDesk(actualSize, actualSet);
-createElements(actualSize, actualSet);
+// Create default desk
+
+Desk.createDesk(actualSize, actualSet);
+Desk.createElements(actualSize, actualSet);
+
+// The game
+
+const container = document.querySelector('#container');
 
 container.onpointerdown = function (event) {
     const target = event.target;
@@ -27,8 +39,6 @@ container.onpointerdown = function (event) {
 
             target.hidden = true;
             const endPoint = document.elementFromPoint(event.clientX, event.clientY);
-
-            console.log(checkElement(endPoint, target));
 
             if (startPoint.classList.contains('image-part') && endPoint.classList.contains('element-cell')) {
                 target.style.width = '150px';
@@ -80,7 +90,7 @@ container.onpointerdown = function (event) {
     }
 }
 
-// Проверка правильности
+// Сheck the correctness
 
 function checkElementPlace() {
     let deskImagesArr = [];
@@ -109,7 +119,7 @@ function checkElementPlace() {
     }
 }
 
-// Проверка по элементу
+// Check by element
 
 function checkElement(endPoint, target) {
     if (parseID(endPoint.id) === parseID(target.id)) {
@@ -120,98 +130,27 @@ function checkElement(endPoint, target) {
     }
 }
 
-// Нажатие на Пикачу
+// Pikachu click
 
-pikachu.onclick = function (event) {
-    const target = event.target;
-    if (target.classList.contains('pikachu-img')) {
-        target.parentNode.classList.remove('pikachu-up');
-    }
-}
+Pikachu.pikachuImageClick();
 
-// Создание поля
+// Reload desk
 
-function createDesk(size, bgName) {
-    const desk = document.querySelector('.desk');
-    desk.innerHTML = '';
+Desk.reload(actualSize, actualSet);
 
-    for (let i = 0; i <= size; i++) {
-        const cellDiv = document.createElement('div');
-        cellDiv.classList.add('element-cell');
-        cellDiv.id = 'cell-' + i;
-        desk.append(cellDiv);
-    }
+// Image choice
 
-    const bg = document.createElement('div');
-    bg.classList.add('background');
-    bg.style.backgroundImage = `url(img/${bgName}_set/${bgName}_450.jpg)`;
-    desk.prepend(bg);
-}
+ImageChoice.choiceButtonClick();
+ImageChoice.closeButtonClick();
+ImageChoice.chooseImage(actualSize, actualSet);
 
-// Создание элементов
-
-function createElements(size, setName) {
-    const elements = document.querySelector('.elements');
-    elements.innerHTML = '<div class="image-part"></div>'.repeat(size);
-
-    const imagePartArr = document.querySelectorAll('.image-part');
-    for (let i = 0; i < imagePartArr.length; i++) {
-        const imagePart = document.createElement('img');
-        imagePart.id = 'img-' + i;
-        imagePart.classList.add('image');
-        imagePart.src = `img/${setName}_set/cut_images/image_part_00${i + 1}.jpg`;
-        imagePartArr[i].append(imagePart);
-    }
-}
-
-// Перезагрузка
-
-onclick = function (event) {
-    const target = event.target;
-    if (target.classList.contains('reload')) {
-        createDesk(actualSize, actualSet);
-        createElements(actualSize, actualSet);
-    }
-}
-
-// Выбор картинки
-
-choiceButton.onclick = function (event) {
-    const choiceFrame = document.querySelector('.choice-frame');
-    choiceFrame.classList.remove('none-display');
-}
-
-closeButton.onclick = function (event) {
-    const choiceFrame = document.querySelector('.choice-frame');
-    choiceFrame.classList.add('none-display');
-}
-
-container.onclick = function (event) {
-    const target = event.target;
-    if (target.classList.contains('set-image')) {
-        createDesk(actualSize, target.id);
-        createElements(actualSize, target.id);
-        actualSet = target.id;
-        const choiceFrame = document.querySelector('.choice-frame');
-        choiceFrame.classList.add('none-display');
-    }
-}
-
-// Парсинг ID
+// Parsing ID
 
 function parseID(id) {
     return id.slice(-1);
 }
 
-// Отключение контекстного меню в браузере
+// Image upload
 
-document.oncontextmenu = function (event) {
-    const target = event.target;
-    if (target.tagName === 'img') {
-        event.preventDefault();
-        event.stopPropagation();
-        event.stopImmediatePropagation();
-        return false;
-    }
-}
-document.addEventListener('contextmenu', event => event.preventDefault());
+ImageUpload.uploadButtonClick();
+ImageUpload.closeButtonClick();
