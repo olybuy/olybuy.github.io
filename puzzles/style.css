@@ -29,20 +29,10 @@ html {
     grid-template-rows: repeat(3, 150px);
     width: 450px;
     height: 450px;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: overlay;
     border: 1px solid #000080;
     z-index: 1;
-}
-
-.background {
-    position: absolute;
-    top:0;
-    width: 450px;
-    height: 450px;
-    background-size: contain;
-    background-position: center;
-    opacity: 0.3;
-    content: '';
-    z-index: 100;
 }
 
 .elements {

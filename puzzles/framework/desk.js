@@ -12,10 +12,7 @@ class Desk {
             desk.append(cellDiv);
         }
 
-        const bg = document.createElement('div');
-        bg.classList.add('background');
-        bg.style.backgroundImage = `url(img/${bgName}_set/${bgName}_450.jpg)`;
-        desk.prepend(bg);
+        desk.style.backgroundImage = `url(img/${bgName}_set/${bgName}_450.jpg)`;
     }
 
     static createElements(size, setName) {
