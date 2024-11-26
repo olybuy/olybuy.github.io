@@ -45,7 +45,7 @@ container.onpointerdown = function (event) {
             if (startPoint.classList.contains('image-part') && endPoint.classList.contains('element-cell')) {
                 target.style.width = '150px';
                 target.style.height = '150px';
-                if (checkElement(endPoint, target)) {
+                if (Utils.parseID(endPoint.id) === Utils.parseID(target.id)) {
                     placeImage(target, endPoint);
                     startPoint.remove();
                 } else {
@@ -118,17 +118,6 @@ function checkElementPlace() {
         reloadDiv.classList.add('reload');
         reloadDiv.id = 'reload';
         desk.append(reloadDiv);
-    }
-}
-
-// Check by element
-
-function checkElement(endPoint, target) {
-    if (Utils.parseID(endPoint.id) === Utils.parseID(target.id)) {
-        return true
-    }
-    else {
-        return false
     }
 }
 

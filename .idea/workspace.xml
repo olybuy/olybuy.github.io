@@ -11,15 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/puzzles/framework/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzles/framework/desk.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/desk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/framework/imageUpload.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzles/framework/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/framework/pikachu.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/pikachu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +125,7 @@
       <workItem from="1726237811246" duration="106000" />
       <workItem from="1726237984945" duration="5965000" />
       <workItem from="1726262144645" duration="480000" />
-      <workItem from="1732526544883" duration="16324000" />
-    </task>
-    <task id="LOCAL-00112" summary="Touch">
-      <created>1673447548981</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1673447548981</updated>
+      <workItem from="1732526544883" duration="27702000" />
     </task>
     <task id="LOCAL-00113" summary="Touch">
       <created>1673447939726</created>
@@ -472,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732540593313</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="bug fix">
+      <created>1732545150144</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1732545150144</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +489,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix check timeout" />
     <MESSAGE value="Remove borders" />
     <MESSAGE value="Add decor" />
     <MESSAGE value="Add pikachu" />
@@ -516,7 +513,8 @@
     <MESSAGE value="add close button" />
     <MESSAGE value="add gitignore file" />
     <MESSAGE value="add framework structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add framework structure" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1732542260844">
@@ -527,10 +525,10 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="245" y="61" key="SettingsEditor/0.25.1440.791@0.25.1440.791" timestamp="1726237717148" />
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1732540606443">
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1732545152251">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1732540606443" />
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1732545152251" />
     <state x="493" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1726238751315">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
