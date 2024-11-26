@@ -98,7 +98,7 @@ function checkElementPlace() {
     let deskImagesArr = [];
     let n = 0;
     deskImagesArr = document.querySelectorAll('.element-cell > .image');
-    if (deskImagesArr.length === 9) {
+    if (deskImagesArr.length === actualSize) {
         for (let i = 0; i < deskImagesArr.length; i++) {
             if (Utils.parseID(deskImagesArr[i].id) === Utils.parseID(deskImagesArr[i].parentNode.id)) {
                 n++
@@ -106,7 +106,7 @@ function checkElementPlace() {
         }
 
     }
-    if (n === 9) {
+    if (n === actualSize) {
         const deskCellsArr = document.querySelectorAll('.element-cell');
         for (let elem of deskCellsArr) {
             elem.classList.add('element-cell-frameless');
