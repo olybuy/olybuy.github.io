@@ -11,9 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/puzzles/img/refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/img/elsanew_set/elsanew_450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/img/tosha_set/tosha_450.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/framework/imageChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/imageChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +49,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/puzzles/img/tosha_set" />
+      <recent name="$PROJECT_DIR$/puzzles/img/elsanew_set.jpg" />
+      <recent name="$PROJECT_DIR$/puzzles/img/elsanew_set.jpg/cut_images" />
+      <recent name="$PROJECT_DIR$/puzzles/img" />
+      <recent name="$PROJECT_DIR$/puzzles/framework" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lines" />
       <recent name="$PROJECT_DIR$/puzzles" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bear" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/puzzles/img" />
-      <recent name="$PROJECT_DIR$/puzzles/framework" />
-      <recent name="$PROJECT_DIR$/puzzles/img/pikachu_set" />
-      <recent name="$PROJECT_DIR$/puzzles/img/aladdin" />
-      <recent name="$PROJECT_DIR$/puzzles/img/elsa_set" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (3)">
@@ -121,14 +124,8 @@
       <workItem from="1726237811246" duration="106000" />
       <workItem from="1726237984945" duration="5965000" />
       <workItem from="1726262144645" duration="480000" />
-      <workItem from="1732526544883" duration="30487000" />
-    </task>
-    <task id="LOCAL-00117" summary="Add Pages">
-      <created>1673633907496</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1673633907496</updated>
+      <workItem from="1732526544883" duration="30855000" />
+      <workItem from="1732639365237" duration="4034000" />
     </task>
     <task id="LOCAL-00118" summary="Add Pages">
       <created>1673634380114</created>
@@ -466,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732637044432</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="change refresh image">
+      <created>1732638215288</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1732638215288</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +489,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add superwings" />
     <MESSAGE value="Fix right-click menu" />
     <MESSAGE value="Add reload" />
     <MESSAGE value="Add small bg" />
@@ -510,7 +513,8 @@
     <MESSAGE value="change actual size" />
     <MESSAGE value="change background" />
     <MESSAGE value="add background" />
-    <option name="LAST_COMMIT_MESSAGE" value="add background" />
+    <MESSAGE value="change refresh image" />
+    <option name="LAST_COMMIT_MESSAGE" value="change refresh image" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1732542260844">
@@ -525,10 +529,10 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="245" y="61" key="SettingsEditor/0.25.1440.791@0.25.1440.791" timestamp="1726237717148" />
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1732637045961">
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1732638217247">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1732637045961" />
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1732638217247" />
     <state x="493" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1726238751315">
       <screen x="0" y="25" width="1440" height="791" />
     </state>

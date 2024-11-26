@@ -32,6 +32,10 @@ class ImageChoice {
                 const choiceFrame = document.querySelector('.choice-frame');
                 choiceFrame.classList.add('none-display');
             }
+            else {
+                const choiceFrame = document.querySelector('.choice-frame');
+                choiceFrame.classList.add('none-display');
+            }
         }
     }
 }
