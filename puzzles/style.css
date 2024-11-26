@@ -1,8 +1,8 @@
 html {
     height: 100%;
     overflow: hidden;
-    background-color: #FFF0F5;
     user-select: none;
+    background: linear-gradient(to bottom, #87ceeb, #fdfd96);
 }
 
 .page {
@@ -167,3 +167,29 @@ html {
 .none-display {
     display: none;
 }
+
+.fun-button {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4); /* Градиент для яркости */
+    color: white; /* Цвет текста */
+    font-size: 1.5rem; /* Крупный шрифт */
+    font-weight: bold; /* Жирный текст */
+    border: none; /* Без границы */
+    border-radius: 20px; /* Скругленные края */
+    padding: 15px 30px; /* Внутренние отступы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень для объёма */
+    cursor: pointer; /* Указывает на то, что элемент кликабелен */
+    transition: all 0.3s ease; /* Анимация при наведении */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Лёгкая тень текста */
+}
+
+.fun-button:hover {
+    background: linear-gradient(45deg, #fbc2eb, #a18cd1); /* Изменение градиента */
+    transform: translateY(-2px); /* Небольшой подъем кнопки */
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); /* Увеличение тени */
+}
+
+.fun-button:active {
+    transform: translateY(2px); /* "Нажатие" кнопки */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Уменьшение тени */
+}
+
