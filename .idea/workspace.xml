@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/puzzles/img/refresh.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +54,11 @@
       <recent name="$PROJECT_DIR$/bear" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/puzzles/img" />
       <recent name="$PROJECT_DIR$/puzzles/framework" />
       <recent name="$PROJECT_DIR$/puzzles/img/pikachu_set" />
       <recent name="$PROJECT_DIR$/puzzles/img/aladdin" />
       <recent name="$PROJECT_DIR$/puzzles/img/elsa_set" />
-      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (3)">
@@ -121,14 +121,7 @@
       <workItem from="1726237811246" duration="106000" />
       <workItem from="1726237984945" duration="5965000" />
       <workItem from="1726262144645" duration="480000" />
-      <workItem from="1732526544883" duration="29448000" />
-    </task>
-    <task id="LOCAL-00116" summary="Add Pages">
-      <created>1673632803698</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1673632803698</updated>
+      <workItem from="1732526544883" duration="30487000" />
     </task>
     <task id="LOCAL-00117" summary="Add Pages">
       <created>1673633907496</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732633332006</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="add background">
+      <created>1732637044431</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1732637044432</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix pikachu" />
     <MESSAGE value="Add superwings" />
     <MESSAGE value="Fix right-click menu" />
     <MESSAGE value="Add reload" />
@@ -510,7 +509,8 @@
     <MESSAGE value="delete unusable func" />
     <MESSAGE value="change actual size" />
     <MESSAGE value="change background" />
-    <option name="LAST_COMMIT_MESSAGE" value="change background" />
+    <MESSAGE value="add background" />
+    <option name="LAST_COMMIT_MESSAGE" value="add background" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1732542260844">
@@ -525,10 +525,10 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="245" y="61" key="SettingsEditor/0.25.1440.791@0.25.1440.791" timestamp="1726237717148" />
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1732633334084">
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1732637045961">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1732633334084" />
+    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1732637045961" />
     <state x="493" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1726238751315">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
