@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="add project folder">
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="add map with API key">
       <change afterPath="$PROJECT_DIR$/kidsApp/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kidsApp/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kidsApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kidsApp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kidsApp/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/kidsApp/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,14 +133,7 @@
       <workItem from="1732526544883" duration="30855000" />
       <workItem from="1732639365237" duration="4034000" />
       <workItem from="1736862662036" duration="823000" />
-      <workItem from="1736864669750" duration="1328000" />
-    </task>
-    <task id="LOCAL-00119" summary="Optimize notes">
-      <created>1673635535389</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1673635535389</updated>
+      <workItem from="1736864669750" duration="2169000" />
     </task>
     <task id="LOCAL-00120" summary="Add TG">
       <created>1674140383897</created>
@@ -479,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736862754790</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="add map with API key">
+      <created>1736866900956</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1736866900957</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add reload" />
     <MESSAGE value="Add small bg" />
     <MESSAGE value="Change BG" />
     <MESSAGE value="Small fixes" />
@@ -522,6 +520,7 @@
     <MESSAGE value="add background" />
     <MESSAGE value="change refresh image" />
     <MESSAGE value="add project folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project folder" />
+    <MESSAGE value="add map with API key" />
+    <option name="LAST_COMMIT_MESSAGE" value="add map with API key" />
   </component>
 </project>

@@ -59,16 +59,37 @@ body {
     background-color: #e9ecef;
 }
 
+/* Map Section - Categories */
 .map-section__categories {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column; /* Stack title over the list */
+    align-items: center; /* Center the content horizontally */
     background-color: #f1f1f1;
     padding: 10px 0;
 }
 
-.map-section__item {
+.map-section__list {
+    display: flex; /* Place categories in a single row */
+    flex-wrap: nowrap; /* Ensure items stay in one row */
+    justify-content: center; /* Center the list */
+    gap: 15px; /* Add spacing between items */
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.map-section__item {
     font-size: 1rem;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.map-section__item:hover {
+    background-color: #e0e0e0;
 }
 
 /* Object Section */
