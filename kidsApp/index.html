@@ -2,9 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6wVhrO8RFFH0yAl7tDkFUTGw4zRPuEn0&callback=initMap" async defer></script>
+
 </head>
 <body>
-    <p>Here will be the project</p>
+<!-- Header -->
+<header class="header">
+    <div class="header__container">
+        <a href="#" class="header__logo">App Logo</a>
+        <input type="text" class="header__search" placeholder="Search">
+        <button class="header__signin">Sign In</button>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="main">
+    <!-- Section 1: Interactive Map and Categories -->
+    <section class="main__map-section map-section">
+        <div class="map-section__map" id="map">
+            <p>Interactive Map Placeholder</p>
+        </div>
+        <div class="map-section__categories">
+            <h2 class="map-section__title">Categories</h2>
+            <ul class="map-section__list">
+                <li class="map-section__item">Category 1</li>
+                <li class="map-section__item">Category 2</li>
+                <li class="map-section__item">Category 3</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section 2: Extended Card of Object -->
+    <section class="main__object-section object-section">
+        <div class="object-section__card">
+            <h2 class="object-section__name">Object Name</h2>
+            <div class="object-section__gallery">
+                <p>Photo Gallery Placeholder</p>
+            </div>
+            <p class="object-section__description">Object description goes here.</p>
+            <div class="object-section__rating">Rating: ★★★★☆</div>
+            <div class="object-section__reviews">Reviews: 10</div>
+            <div class="object-section__features">
+                <p>Feature Icons Placeholder</p>
+            </div>
+            <a href="#" class="object-section__link-google">Open in Google Maps</a>
+            <a href="#" class="object-section__link-complain">Write a Complain</a>
+            <button class="object-section__button-add-photo">Add Photo</button>
+            <button class="object-section__button-add-review">Add Review</button>
+            <button class="object-section__button-favorite">Add to Favorites</button>
+        </div>
+    </section>
+
+    <!-- Section 3: List of Nearest Objects -->
+    <section class="main__nearest-section nearest-section">
+        <h2 class="nearest-section__title">Nearest Objects</h2>
+        <ul class="nearest-section__list">
+            <li class="nearest-section__card">
+                <h3 class="nearest-section__card-name">Object Name</h3>
+                <div class="nearest-section__card-gallery">
+                    <p>Photo Gallery Placeholder</p>
+                </div>
+                <div class="nearest-section__card-rating">Rating: ★★★☆☆</div>
+                <div class="nearest-section__card-features">
+                    <p>Feature Icons Placeholder</p>
+                </div>
+                <p class="nearest-section__card-description">Short description here.</p>
+                <button class="nearest-section__card-button-favorite">Add to Favorites</button>
+            </li>
+            <!-- Repeat the card structure for additional nearest objects -->
+        </ul>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__content">
+        <p class="footer__year">&copy; 2025</p>
+        <a href="#" class="footer__license">License Agreement</a>
+        <div class="footer__socials">
+            <a href="#" class="footer__social-icon">Facebook</a>
+            <a href="#" class="footer__social-icon">Twitter</a>
+            <a href="#" class="footer__social-icon">Instagram</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Google Maps Initialization Script -->
+<script>
+    function initMap() {
+        // Map options
+        const mapOptions = {
+            center: { lat: 37.7749, lng: -122.4194 }, // Example: San Francisco
+            zoom: 12,
+        };
+
+        // Create the map
+        const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        // Optional: Add a marker
+        const marker = new google.maps.Marker({
+            position: { lat: 37.7749, lng: -122.4194 },
+            map: map,
+            title: "San Francisco",
+        });
+    }
+</script>
+
 </body>
 </html>

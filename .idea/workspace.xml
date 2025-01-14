@@ -10,13 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/puzzles/img/elsanew_set/elsanew_450.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/img/tosha_set/tosha_450.jpg" afterDir="false" />
+    <list default="true" id="e9ebfcf3-b122-4c9a-8fc5-a769dd3bd3fd" name="Default Changelist" comment="add project folder">
+      <change afterPath="$PROJECT_DIR$/kidsApp/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kidsApp/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/framework/imageChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/framework/imageChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kidsApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kidsApp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -34,20 +33,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="2IAUHj3memamyNsrKpdwA2K5RwW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lines" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/puzzles/img/tosha_set" />
@@ -126,13 +133,8 @@
       <workItem from="1726262144645" duration="480000" />
       <workItem from="1732526544883" duration="30855000" />
       <workItem from="1732639365237" duration="4034000" />
-    </task>
-    <task id="LOCAL-00118" summary="Add Pages">
-      <created>1673634380114</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1673634380114</updated>
+      <workItem from="1736862662036" duration="823000" />
+      <workItem from="1736864669750" duration="1328000" />
     </task>
     <task id="LOCAL-00119" summary="Optimize notes">
       <created>1673635535389</created>
@@ -470,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732638215288</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="add project folder">
+      <created>1736862754790</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1736862754790</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,10 +495,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix right-click menu" />
     <MESSAGE value="Add reload" />
     <MESSAGE value="Add small bg" />
     <MESSAGE value="Change BG" />
@@ -514,28 +521,7 @@
     <MESSAGE value="change background" />
     <MESSAGE value="add background" />
     <MESSAGE value="change refresh image" />
-    <option name="LAST_COMMIT_MESSAGE" value="change refresh image" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1732542260844">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="502" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.791@0.25.1440.791" timestamp="1732542260844" />
-    <state x="487" y="127" key="RollbackChangesDialog" timestamp="1732632736814">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="487" y="127" key="RollbackChangesDialog/0.25.1440.791@0.25.1440.791" timestamp="1732632736814" />
-    <state x="245" y="61" key="SettingsEditor" timestamp="1726237717148">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="245" y="61" key="SettingsEditor/0.25.1440.791@0.25.1440.791" timestamp="1726237717148" />
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2" timestamp="1732638217247">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="425" y="144" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1732638217247" />
-    <state x="493" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1726238751315">
-      <screen x="0" y="25" width="1440" height="791" />
-    </state>
-    <state x="493" y="140" width="670" height="676" key="search.everywhere.popup/0.25.1440.791@0.25.1440.791" timestamp="1726238751315" />
+    <MESSAGE value="add project folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project folder" />
   </component>
 </project>
